@@ -85,7 +85,7 @@ Chip Manufacturers
 
 CERTs
 ==================
-* US-CERT: [Vulnerability Note VU#584653 - CPU hardware vulnerable to side-channel attacks](https://www.kb.cert.org/vuls/id/584653)
+* CERT - Carnegie Mellon University: [Vulnerability Note VU#584653 - CPU hardware vulnerable to side-channel attacks](https://www.kb.cert.org/vuls/id/584653)
 
 CPU microcode
 =============
