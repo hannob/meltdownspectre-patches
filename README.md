@@ -104,7 +104,7 @@ It is unclear whether microcode updates are needed and which version contains
 them. The microcode update does not contain any changelog.  
 If it will become necessary to update Intel (or AMD) microcode under Windows, before the release of official OS-level patches, [this VMware Labs fling](https://labs.vmware.com/flings/vmware-cpu-microcode-update-driver) - though formally experimental - can serve the purpose, at least temporarily.
 
-**Update - Thu 4 Jan, 15:30 UTC**
+**Update - Thu 4 Jan 2018, 15:30 UTC**
 
 It seems that the new Intel’s microcode archive provided with the latest Red Hat’s microcode_ctl update includes three new files: 06-3f-02, 06-4f-01, 06-55-04.
 
