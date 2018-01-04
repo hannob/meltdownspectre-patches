@@ -152,7 +152,7 @@ Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAt
 * Webroot: [Microsoft Patch Release - Wednesday, January 3, 2018](https://community.webroot.com/t5/Announcements/Microsoft-Patch-Release-Wednesday-January-3-2018/m-p/310146
 )
 * McAfee: [Decyphering the Noise Around ‘Meltdown’ and ‘Spectre’](https://securingtomorrow.mcafee.com/mcafee-labs/decyphering-the-noise-around-meltdown-and-spectre/) and [Meltdown and Spectre – Microsoft update (January 3, 2018) compatibility issue with anti-virus products](https://kc.mcafee.com/corporate/index?page=content&id=KB90167)
-* Kaspersky: [Compatibility of Kaspersky Lab solutions with the Microsoft Security update of January 9, 2018] (https://support.kaspersky.com/14042) - have confirmed presence of MS readiness flag in registry on multiple machines w/ databases updated following 18 December 2017 as indicated in the article.  Per Kaspersky: "The readiness flag (registry key) was changed (unexpectedly)  from the one we agreed with Microsoft before NY and implemented in db updates of 28.12.17. Therefore currently our update(28.12) doesn't enable MS January update. We contacted MS to fix the flag, but to speed up the process we prepared a db updates with new readiness flag (additionally to current we set) - the db updates is in testing now - will be available publicly tomorrow morning (around 5-7am Moscow time)"
+* Kaspersky: [Compatibility of Kaspersky Lab solutions with the Microsoft Security update of January 9, 2018](https://support.kaspersky.com/14042)
 
 Embedded Devices
 ================
