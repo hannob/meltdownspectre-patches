@@ -95,3 +95,13 @@ Latest [Intel microcode](https://downloadcenter.intel.com/download/27337) update
 It is unclear whether microcode updates are needed and which version contains
 them. The microcode update does not contain any changelog.  
 If it will become necessary to update Intel (or AMD) microcode under Windows, before the release of official OS-level patches, [this VMware Labs fling](https://labs.vmware.com/flings/vmware-cpu-microcode-update-driver) - though formally experimental - can serve the purpose, at least temporarily.
+
+Antiviruses
+===========
+
+Some Antiviruses do things that break when installing the Windows patches,
+therefore Microsoft doesn't automatically install the patches on those systems.
+
+Mitigation: Remove Antivirus.
+
+Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAtckQxYiuirADzf3cL42FQ/htmlview?usp=sharing&sle=true
