@@ -62,6 +62,9 @@ Linux distributions
    * [Details about CVE-2017-5715 (variant 2, aka "Spectre")](https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5715)
    * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5754.html)
  * Debian: Fixed in stretch (4.9.65-3+deb9u2, [DSA-4078-1](https://security-tracker.debian.org/tracker/DSA-4078-1))
+   * [Details about CVE-2017-5753 (variant 1, aka "Spectre")](https://security-tracker.debian.org/tracker/CVE-2017-5753)
+   * [Details about CVE-2017-5715 (variant 2, aka "Spectre")](https://security-tracker.debian.org/tracker/CVE-2017-5715)
+   * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://security-tracker.debian.org/tracker/CVE-2017-5754)
  * [SUSE Advisory](https://www.suse.com/c/suse-addresses-meltdown-spectre-vulnerabilities/)
  * Scientific Linux:
    * 7 - [SLSA-2018:0007-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180007-1/) (kernel), [SLSA-2018:0012-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180012-1/) (microcode_ctl), [SLSA-2018:0014-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180014-1/) (linux-firmware) 
