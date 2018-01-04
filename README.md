@@ -77,6 +77,15 @@ Cloud Providers
 * DigitalOcean: [A Message About Intel Security Findings](https://blog.digitalocean.com/a-message-about-intel-security-findings/)
 * Scaleway: [Emergency security update required on all hypervisors](https://status.online.net/index.php?do=details&task_id=1116)
 
+Chip Manufacturers
+==================
+* Intel: nothing yet
+* AMD: nothing yet
+* ARM: [Security Update](https://developer.arm.com/support/security-update)
+
+CERTs
+==================
+* CERT - Carnegie Mellon University: [Vulnerability Note VU#584653 - CPU hardware vulnerable to side-channel attacks](https://www.kb.cert.org/vuls/id/584653)
 
 CPU microcode
 =============
