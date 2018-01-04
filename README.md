@@ -89,6 +89,7 @@ Chip Manufacturers
 * Intel: nothing yet
 * AMD: nothing yet
 * ARM: [Security Update](https://developer.arm.com/support/security-update)
+* NVIDIA: [Security Notice: Speculative Side Channels](https://nvidia.custhelp.com/app/answers/detail/a_id/4609)
 
 CERTs
 ==================
