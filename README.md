@@ -40,7 +40,7 @@ Android
 Windows
 =======
 
- * [KB4056892](https://support.microsoft.com/en-us/help/4056892/windows-10-update-kb4056892) is said to fix this based on [this](http://mashable.com/2018/01/03/microsoft-patch-processor-vulnerability/?utm_cid=mash-com-Tw-main-link#NYuDOh55Kqqo) article, but unclear.
+ * [Microsoft Advisory](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv180002)
 
 OS X
 ====
