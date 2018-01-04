@@ -89,7 +89,7 @@ Cloud Providers
 
 Chip Manufacturers / HW Vendors
 ==================
-* Intel: [INTEL-SA-00088 - Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00088&languageid=en-fr)
+* Intel: [INTEL-SA-00088 - Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00088&languageid=en-fr), [INTEL-SA-00075 Detection and Mitigation Tool (Windows)](https://downloadcenter.intel.com/download/26755/INTEL-SA-00075-Detection-and-Mitigation-Tool) and [INTEL-SA-00075 Linux Detection and Mitigation Tools (Linux)](https://github.com/intel/INTEL-SA-00075-Linux-Detection-And-Mitigation-Tools)
 * AMD: nothing yet
 * ARM: [Security Update](https://developer.arm.com/support/security-update)
 * NVIDIA: [Security Notice: Speculative Side Channels](https://nvidia.custhelp.com/app/answers/detail/a_id/4609)
