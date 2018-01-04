@@ -20,7 +20,7 @@ Linux upstream kernel
 [Kernel Page Table Isolation](https://en.wikipedia.org/wiki/Kernel_page-table_isolation#cite_note-:2-4)
 is a mitigation in the Linux Kernel, originally named KAISER.
 
- * [Version 4.14](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.11) contains KPTI.
+ * [Version 4.14.11](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.11) contains KPTI.
  * [Version 4.15-rc6](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?h=v4.15-rc6) contains KPTI.
  * The patches have not been backported to the longterm kernels like 4.9 (state: 4.9.74).
 
