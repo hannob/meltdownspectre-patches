@@ -106,7 +106,7 @@ If it will become necessary to update Intel (or AMD) microcode under Windows, be
 
 **Update - Thu 4 Jan 2018, 15:30 UTC**
 
-It seems that the new Intel’s microcode archive provided with the latest Red Hat’s microcode_ctl update includes three new files: 06-3f-02, 06-4f-01, 06-55-04.
+It seems that the new Intel’s microcode archive (2017-12-15) provided with the latest Red Hat’s microcode_ctl update includes three new files: 06-3f-02, 06-4f-01, 06-55-04.
 
 Based on what we know:
 1. it adds one new CPUID and two MSR for the variant of Spectre that uses indirect branches
