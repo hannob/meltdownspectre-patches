@@ -126,3 +126,8 @@ therefore Microsoft doesn't automatically install the patches on those systems.
 Mitigation: Remove Antivirus.
 
 Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAtckQxYiuirADzf3cL42FQ/htmlview?usp=sharing&sle=true
+
+Embedded Devices
+================
+
+ * Synology: https://www.synology.com/en-us/support/security/Synology_SA_18_01
