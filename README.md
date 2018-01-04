@@ -114,6 +114,8 @@ Based on what we know:
 1. it adds one new CPUID and two MSR for the variant of Spectre that uses indirect branches
 2. it forces LFENCE to terminate the execution of all previous instructions, thus having the desired effect for the variant of Spectre that uses conditional branches (out-of-bounds-bypass)
 
+Those IDs belong to the following processor microarchitectures: Haswell, Broadwell, Skylake ([official reference](https://software.intel.com/en-us/articles/intel-architecture-and-processor-identification-with-cpuid-model-and-family-numbers))
+
 
 Antiviruses
 ===========
