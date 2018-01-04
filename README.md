@@ -35,7 +35,7 @@ available). minipli is based on the longterm kernel 4.9 which does not contain K
 Android
 =======
 
- * Fixed with [https://source.android.com/security/bulletin/2018-01-01](Android Security Bulletin—January 2018).
+ * Fixed with [Android Security Bulletin—January 2018](https://source.android.com/security/bulletin/2018-01-01).
 
 Windows
 =======
