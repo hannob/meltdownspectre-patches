@@ -51,6 +51,7 @@ Linux distributions
 ===================
 
  * [Red Hat Advisory](https://access.redhat.com/security/vulnerabilities/speculativeexecution)
+ * CentOS - [CESA-2018:0007](https://lists.centos.org/pipermail/centos-announce/2018-January/022696.html)
  * Ubuntu - nothing yet, https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5754.html
  * Debian - nothing yet, https://security-tracker.debian.org/tracker/CVE-2017-5754
  * [SUSE Advisory](https://www.suse.com/c/suse-addresses-meltdown-spectre-vulnerabilities/)
