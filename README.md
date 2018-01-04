@@ -152,8 +152,14 @@ Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAt
 * Webroot: [Microsoft Patch Release - Wednesday, January 3, 2018](https://community.webroot.com/t5/Announcements/Microsoft-Patch-Release-Wednesday-January-3-2018/m-p/310146
 )
 
-
 Embedded Devices
 ================
 
- * Synology: https://www.synology.com/en-us/support/security/Synology_SA_18_01
+ * Synology: [Synology-SA-18:01 Meltdown and Spectre Attacks](https://www.synology.com/en-us/support/security/Synology_SA_18_01)
+ 
+Compilers
+================
+
+* [Google's Retpoline: a software construct for preventing branch-target-injection)] (https://support.google.com/faqs/answer/7625886) (technical write-up)
+  * LLVM: An implementation is under review for official merge [here](https://reviews.llvm.org/D41723)
+  * GCC: An implementation for GCC is available [here](http://git.infradead.org/users/dwmw2/gcc-retpoline.git/shortlog/refs/heads/gcc-7_2_0-retpoline-20171219)
