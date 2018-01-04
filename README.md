@@ -90,6 +90,6 @@ CERTs
 CPU microcode
 =============
 
-Latest [Intel microcode](https://downloadcenter.intel.com/download/27337) update is 20170707.
+Latest [Intel microcode](https://downloadcenter.intel.com/download/27337) update is 20171117.
 It is unclear whether microcode updates are needed and which version contains
 them. The microcode update does not contain any changelog.
