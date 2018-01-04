@@ -68,6 +68,7 @@ Virtualization
 * XEN - [XSA-254](https://xenbits.xen.org/xsa/advisory-254.html), no patches yet
 * QEMU - nothing yet, discussion: https://lists.nongnu.org/archive/html/qemu-devel/2018-01/msg00613.html
 * VMware - [VMSA-2018-0002](https://lists.vmware.com/pipermail/security-announce/2018/000397.html)
+* Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 
 Browsers
 ========
