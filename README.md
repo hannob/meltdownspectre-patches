@@ -152,6 +152,7 @@ Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAt
 * Webroot: [Microsoft Patch Release - Wednesday, January 3, 2018](https://community.webroot.com/t5/Announcements/Microsoft-Patch-Release-Wednesday-January-3-2018/m-p/310146
 )
 * McAfee: [Decyphering the Noise Around ‘Meltdown’ and ‘Spectre’](https://securingtomorrow.mcafee.com/mcafee-labs/decyphering-the-noise-around-meltdown-and-spectre/) and [Meltdown and Spectre – Microsoft update (January 3, 2018) compatibility issue with anti-virus products](https://kc.mcafee.com/corporate/index?page=content&id=KB90167)
+* Kaspersky: [Compatibility of Kaspersky Lab solutions with the Microsoft Security update of January 9, 2018] (https://support.kaspersky.com/14042) - have confirmed presence of MS Qual registry key on multiple machines w/ databases updated following 18 December 2017 as indicated in the article
 
 Embedded Devices
 ================
