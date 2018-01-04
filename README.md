@@ -53,6 +53,7 @@ Linux distributions
  * [Red Hat Advisory](https://access.redhat.com/security/vulnerabilities/speculativeexecution)
  * Ubuntu - nothing yet, https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5754.html
  * Debian - nothing yet, https://security-tracker.debian.org/tracker/CVE-2017-5754
+ * [SUSE Advisory](https://www.suse.com/c/suse-addresses-meltdown-spectre-vulnerabilities/)
 
 Virtualization
 ==============
