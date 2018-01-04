@@ -92,4 +92,5 @@ CPU microcode
 
 Latest [Intel microcode](https://downloadcenter.intel.com/download/27337) update is 20171117.
 It is unclear whether microcode updates are needed and which version contains
-them. The microcode update does not contain any changelog.
+them. The microcode update does not contain any changelog.  
+If it will become necessary to update Intel (or AMD) microcode under Windows, before the release of official OS-level patches, [this VMware Labs fling](https://labs.vmware.com/flings/vmware-cpu-microcode-update-driver) - though formally experimental - can serve the purpose, at least temporarily.
