@@ -184,11 +184,6 @@ RDBMS
 =====
 * SQL Server: [SQL Server Guidance to protect against speculative execution side-channel vulnerabilities](https://support.microsoft.com/en-us/help/4073225/guidance-for-sql-server)
 
-Key value/Data Structure Store
-==============================
-* Redis: [Meltdown fix performances impact](https://gist.github.com/antirez/9e716670f76133ec81cb24036f86ee95)
-
-
 Embedded Devices
 ================
 
