@@ -168,6 +168,10 @@ Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAt
 * Kaspersky: [Compatibility of Kaspersky Lab solutions with the Microsoft Security update of January 9, 2018](https://support.kaspersky.com/14042)
 * ESET: [Meltdown & Spectre: How to protect yourself from these CPU security flaws](https://www.eset.com/us/about/newsroom/corporate-blog-list/corporate-blog/meltdown-spectre-how-to-protect-yourself-from-these-cpu-security-flaws/)
 
+RDBMS
+=====
+* SQL Server: [SQL Server Guidance to protect against speculative execution side-channel vulnerabilities](https://support.microsoft.com/en-us/help/4073225/guidance-for-sql-server)
+
 Embedded Devices
 ================
 
