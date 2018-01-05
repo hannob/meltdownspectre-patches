@@ -126,6 +126,7 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * F5: [K91229003 - Side-channel processor vulnerabilities CVE-2017-5715, CVE-2017-5753, and CVE-2017-5754](https://support.f5.com/csp/article/K91229003)
 * Cisco [CPU Side-Channel Information Disclosure Vulnerabilities](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180104-cpusidechannel)
 * Fortigate [CPU hardware vulnerable to Meltdown and Spectre attacks](https://fortiguard.com/psirt/FG-IR-18-002)
+* Cumulus Linux [Meltdown and Spectre: Modern CPU Vulnerabilities](https://support.cumulusnetworks.com/hc/en-us/articles/115015951667-Meltdown-and-Spectre-Modern-CPU-Vulnerabilities)
 
 CERTs
 ==================
