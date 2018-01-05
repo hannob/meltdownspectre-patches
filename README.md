@@ -23,10 +23,6 @@ is a mitigation in the Linux Kernel, originally named KAISER.
  * [Version 4.14.11](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.11) contains KPTI.
  * [Version 4.15-rc6](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?h=v4.15-rc6) contains KPTI.
  * The patches have not been backported to the longterm kernels like 4.9 (state: 4.9.74).
- 
-**Update - Fri 5 Jan 2018, 1AM UTC**
-
-A [tweet](https://twitter.com/CoreOSsecurity/status/949080108739936257) posted by CoreOS' Security Team states that "The Container Linux team now testing a round of patches developed by the Linux Kernel community to address the Meltdown vulnerabilities and crash issues identified in 4.14.11. The patches being tested are here: https://github.com/coreos/linux/compare/e2b917f...coreos:v4.14.11-coreos … More updates as testing progresses."
 
 minipli patches
 ===============
@@ -76,6 +72,7 @@ Linux distributions
  * Scientific Linux:
    * 7 - [SLSA-2018:0007-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180007-1/) (kernel), [SLSA-2018:0012-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180012-1/) (microcode_ctl), [SLSA-2018:0014-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180014-1/) (linux-firmware) 
    * 6 - [SLSA-2018:0008-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180008-1/) (kernel), [SLSA-2018:0013-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180013-1/) (microcode_ctl) 
+ * CoreOS Container Linux: a [tweet](https://twitter.com/CoreOSsecurity/status/949080108739936257) posted by CoreOS' Security Team states that the team is now testing a round of patches developed by the Linux Kernel community to address the Meltdown vulnerabilities and crash issues identified in 4.14.11. The patches being tested are [here](https://github.com/coreos/linux/compare/e2b917f...coreos:v4.14.11-coreos)
 
 FreeBSD
 =======
