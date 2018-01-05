@@ -145,7 +145,7 @@ CERTs
 * CERT-FR: [CERTFR-2018-ALE-001 - Multiples vulnérabilités de fuite d’informations dans des processeurs](https://www.cert.ssi.gouv.fr/alerte/CERTFR-2018-ALE-001/) (french only)
 * CERT Nazionale: [Moderni processori vulnerabili ad attacchi side-channel](https://www.certnazionale.it/news/2018/01/04/moderni-processori-vulnerabili-ad-attacchi-side-channel/) (italian only)
 
-CPU  
+CPU microcode  
 =============
 
 Latest [Intel microcode](https://downloadcenter.intel.com/download/27337) update is 20171117.
