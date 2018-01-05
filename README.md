@@ -168,6 +168,11 @@ Those IDs belong to the following processor microarchitectures: Haswell, Broadwe
 
 Regarding AMD's microcode update: it seems to be only for EPYC (maybe Ryzen, not sure!) and it only adds one of the two MSRs (IA32_PRED_CMD). It uses a different bit than Intel's in the CPUID. It is also for Spectre with indirect branches. Previous microprocessors resolved it with a chicken bit. Please note that the same solution implemented at kernel level works for both Intel and AMD.
 
+**Update - Fri 5 Jan 2018, 21:00 UTC**
+
+Debian Project package maintainers released an [[updated version of the "intel-microcode" package (version 2017-12-15)]](https://packages.debian.org/sid/intel-microcode) for the Sid (unstable) branch olny. Upon inspection, it seems to contain the same microcode additions observed in the Red Hat microcode_ctl update of Thu 4 Jan 2018, 15:30 UTC.
+The package in compatible with all Debian-based distributions that support post-boot microcode updates.
+
 Antiviruses
 ===========
 
