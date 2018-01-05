@@ -161,10 +161,7 @@ Regarding AMD's microcode update: it seems to be only for EPYC (maybe Ryzen, not
 Antiviruses
 ===========
 
-Some Antiviruses do things that break when installing the Windows patches,
-therefore Microsoft doesn't automatically install the patches on those systems.
-
-Mitigation: Remove Antivirus.
+Some Antiviruses do things that break when installing the Windows patches, therefore Microsoft doesn't automatically install the patches on those systems.
 
 Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAtckQxYiuirADzf3cL42FQ/htmlview?usp=sharing&sle=true
 
