@@ -22,13 +22,14 @@ is a mitigation in the Linux Kernel, originally named KAISER.
 
  * [Version 4.14.11](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.11) contains KPTI.
  * [Version 4.15-rc6](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?h=v4.15-rc6) contains KPTI.
- * The patches have not been backported to the longterm kernels like 4.9 (state: 4.9.74).
+ * Longterm support kernels [Version 4.9.75](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.9.75) and [4.4.110](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.110) contain KPTI backports.
 
 minipli patches
 ===============
 
 minipli is an unofficial fork of the former grsecurity patches (original grsecurity is no longer publicly
-available). minipli is based on the longterm kernel 4.9 which does not contain KPTI yet.
+available). minipli is based on the longterm kernel 4.9, which supports KPTI since
+4.9.75, yet the patchset isn't ported yet.
 
  * [bug report with discussion about backporting KPTI](https://github.com/minipli/linux-unofficial_grsec/issues/25)
 
