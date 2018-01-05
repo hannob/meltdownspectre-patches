@@ -51,6 +51,11 @@ Apple has already released mitigations in iOS 11.2, macOS 10.13.2, and tvOS 11.2
 In the coming days they plan to release mitigations in Safari to help defend against Spectre. They continue to develop and test further mitigations for these issues and will release them in upcoming updates of iOS, macOS, tvOS, and watchOS.
 
  * [Official statement](https://support.apple.com/en-us/HT208394)
+ 
+The security patch released on December 6, 2017 includes Meltdown mitigation also for Sierra and El Capitan
+ 
+ * [About the security content of macOS High Sierra 10.13.2, Security Update 2017-002 Sierra, and Security Update 2017-005 El Capitan](https://support.apple.com/en-us/HT208331)
+ 
 
 Linux distributions
 ===================
