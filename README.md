@@ -93,6 +93,7 @@ Cloud Providers
 * Microsoft Azure: [Securing Azure customers from CPU vulnerability](https://azure.microsoft.com/en-us/blog/securing-azure-customers-from-cpu-vulnerability/)
 * DigitalOcean: [A Message About Intel Security Findings](https://blog.digitalocean.com/a-message-about-intel-security-findings/)
 * Scaleway: [Emergency security update required on all hypervisors](https://status.online.net/index.php?do=details&task_id=1116)
+* Linode:  [CPU Vulnerabilities: Meltdown & Spectre](https://blog.linode.com/2018/01/03/cpu-vulnerabilities-meltdown-spectre/)
 
 Chip Manufacturers / HW Vendors
 ==================
@@ -158,6 +159,7 @@ Embedded Devices
 ================
 
  * Synology: [Synology-SA-18:01 Meltdown and Spectre Attacks](https://www.synology.com/en-us/support/security/Synology_SA_18_01)
+ * Opengear: Nothing yet. Support claims an announcement is being prepared but did not provide a timeframe for public release.
  
 Compilers
 ================
