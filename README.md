@@ -47,7 +47,10 @@ Windows
 OS X
 ====
 
- * Unclear, [some Info](https://twitter.com/aionescu/status/948610973987831809).
+Apple has already released mitigations in iOS 11.2, macOS 10.13.2, and tvOS 11.2 to help defend against Meltdown. 
+In the coming days they plan to release mitigations in Safari to help defend against Spectre. They continue to develop and test further mitigations for these issues and will release them in upcoming updates of iOS, macOS, tvOS, and watchOS.
+
+ * [Official statement](https://support.apple.com/en-us/HT208394)
 
 Linux distributions
 ===================
