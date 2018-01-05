@@ -73,6 +73,7 @@ Linux distributions
    * 7 - [SLSA-2018:0007-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180007-1/) (kernel), [SLSA-2018:0012-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180012-1/) (microcode_ctl), [SLSA-2018:0014-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180014-1/) (linux-firmware) 
    * 6 - [SLSA-2018:0008-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180008-1/) (kernel), [SLSA-2018:0013-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180013-1/) (microcode_ctl) 
  * CoreOS Container Linux: a [tweet](https://twitter.com/CoreOSsecurity/status/949080108739936257) posted by CoreOS' Security Team states that the team is now testing a round of patches developed by the Linux Kernel community to address the Meltdown vulnerabilities and crash issues identified in 4.14.11. The patches being tested are [here](https://github.com/coreos/linux/compare/e2b917f...coreos:v4.14.11-coreos)
+ * NixOS: According to [#33414](https://github.com/NixOS/nixpkgs/issues/33414), KPTI is in nixpkgs since [1e129a3](https://github.com/NixOS/nixpkgs/commit/1e129a3f9934ae62b77475909f6812f2ac3ab51f).
 
 FreeBSD
 =======
