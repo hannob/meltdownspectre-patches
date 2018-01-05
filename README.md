@@ -22,13 +22,14 @@ is a mitigation in the Linux Kernel, originally named KAISER.
 
  * [Version 4.14.11](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.11) contains KPTI.
  * [Version 4.15-rc6](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?h=v4.15-rc6) contains KPTI.
- * The patches have not been backported to the longterm kernels like 4.9 (state: 4.9.74).
+ * Longterm support kernels [Version 4.9.75](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.9.75) and [4.4.110](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.110) contain KPTI backports.
 
 minipli patches
 ===============
 
 minipli is an unofficial fork of the former grsecurity patches (original grsecurity is no longer publicly
-available). minipli is based on the longterm kernel 4.9 which does not contain KPTI yet.
+available). minipli is based on the longterm kernel 4.9, which supports KPTI since
+4.9.75, yet the patchset isn't ported yet.
 
  * [bug report with discussion about backporting KPTI](https://github.com/minipli/linux-unofficial_grsec/issues/25)
 
@@ -69,7 +70,7 @@ Linux distributions
    * [Details about CVE-2017-5753 (variant 1, aka "Spectre")](https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5753)
    * [Details about CVE-2017-5715 (variant 2, aka "Spectre")](https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5715)
    * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5754.html)
- * Debian: Fixed in stretch (4.9.65-3+deb9u2, [DSA-4078-1](https://security-tracker.debian.org/tracker/DSA-4078-1))
+ * Debian: "Meltdown" fixed in stretch (4.9.65-3+deb9u2, [DSA-4078-1](https://security-tracker.debian.org/tracker/DSA-4078-1)). "Spectre" mitigations are a work in progress.
    * [Details about CVE-2017-5753 (variant 1, aka "Spectre")](https://security-tracker.debian.org/tracker/CVE-2017-5753)
    * [Details about CVE-2017-5715 (variant 2, aka "Spectre")](https://security-tracker.debian.org/tracker/CVE-2017-5715)
    * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://security-tracker.debian.org/tracker/CVE-2017-5754)
@@ -79,6 +80,10 @@ Linux distributions
    * 6 - [SLSA-2018:0008-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180008-1/) (kernel), [SLSA-2018:0013-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180013-1/) (microcode_ctl) 
  * CoreOS Container Linux: a [tweet](https://twitter.com/CoreOSsecurity/status/949080108739936257) posted by CoreOS' Security Team states that the team is now testing a round of patches developed by the Linux Kernel community to address the Meltdown vulnerabilities and crash issues identified in 4.14.11. The patches being tested are [here](https://github.com/coreos/linux/compare/e2b917f...coreos:v4.14.11-coreos)
  * NixOS: According to [#33414](https://github.com/NixOS/nixpkgs/issues/33414), KPTI is in nixpkgs since [1e129a3](https://github.com/NixOS/nixpkgs/commit/1e129a3f9934ae62b77475909f6812f2ac3ab51f).
+ * [Arch Linux Advisory](https://lists.archlinux.org/pipermail/arch-security/2018-January/001110.html)
+ * Gentoo:
+   * [Gentoo Wiki - Project:Security/Vulnerabilities/Meltdown and Spectre](https://wiki.gentoo.org/wiki/Project:Security/Vulnerabilities/Meltdown_and_Spectre)
+   * [Bugtracker - Bug#643228 - Security Tracking Bug](https://bugs.gentoo.org/643228)
 
 FreeBSD
 =======
@@ -91,13 +96,14 @@ Virtualization
 * XEN - [XSA-254](https://xenbits.xen.org/xsa/advisory-254.html) and [Xen Project Spectre/Meltdown FAQ](https://blog.xenproject.org/2018/01/04/xen-project-spectremeltdown-faq/), no patches yet
 * QEMU - unofficial patch published [here](https://lists.nongnu.org/archive/html/qemu-devel/2018-01/msg00811.html), [official blog post](https://www.qemu.org/2018/01/04/spectre/), [discussion on qemu-devel](https://lists.nongnu.org/archive/html/qemu-devel/2018-01/msg00613.html)
 * VMware - [VMSA-2018-0002](https://www.vmware.com/us/security/advisories/VMSA-2018-0002.html)
+Update 01/04/18: "OS vendors have begun issuing patches that address CVE-2017-5753, CVE-2017-5715, and CVE-2017-5754 for their operating systems. For these patches to be fully functional in a guest OS additional ESXi and vCenter Server updates will be required. These updates are being given the highest priority. Please sign up to the [Security-Announce mailing list](https://lists.vmware.com/cgi-bin/mailman/listinfo/security-announce) to be alerted when these updates are available."
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
 
 Browsers
 ========
 
-* Mozilla: [Mitigations landing for new class of timing attack (blog post)](https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/), [Security Advisory 2018-01](https://www.mozilla.org/en-US/security/advisories/mfsa2018-01/)
+* Mozilla: [Mitigations landing for new class of timing attack (blog post)](https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/), [Security Advisory 2018-01](https://www.mozilla.org/en-US/security/advisories/mfsa2018-01/), [Firefox mitigation update 57.0.4](https://www.mozilla.org/en-US/firefox/57.0.4/releasenotes/)
 * Chrome: [Actions Required to Mitigate Speculative Side-Channel Attack Techniques](https://www.chromium.org/Home/chromium-security/ssca)
 * Microsoft Edge: [Mitigating speculative execution side-channel attacks in Microsoft Edge and Internet Explorer](https://blogs.windows.com/msedgedev/2018/01/03/speculative-execution-mitigations-microsoft-edge-internet-explorer/)
 
@@ -160,10 +166,7 @@ Regarding AMD's microcode update: it seems to be only for EPYC (maybe Ryzen, not
 Antiviruses
 ===========
 
-Some Antiviruses do things that break when installing the Windows patches,
-therefore Microsoft doesn't automatically install the patches on those systems.
-
-Mitigation: Remove Antivirus.
+Some Antiviruses do things that break when installing the Windows patches, therefore Microsoft doesn't automatically install the patches on those systems.
 
 Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAtckQxYiuirADzf3cL42FQ/htmlview?usp=sharing&sle=true
 
@@ -175,6 +178,10 @@ Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAt
 * McAfee: [Decyphering the Noise Around ‘Meltdown’ and ‘Spectre’](https://securingtomorrow.mcafee.com/mcafee-labs/decyphering-the-noise-around-meltdown-and-spectre/) and [Meltdown and Spectre – Microsoft update (January 3, 2018) compatibility issue with anti-virus products](https://kc.mcafee.com/corporate/index?page=content&id=KB90167)
 * Kaspersky: [Compatibility of Kaspersky Lab solutions with the Microsoft Security update of January 9, 2018](https://support.kaspersky.com/14042)
 * ESET: [Meltdown & Spectre: How to protect yourself from these CPU security flaws](https://www.eset.com/us/about/newsroom/corporate-blog-list/corporate-blog/meltdown-spectre-how-to-protect-yourself-from-these-cpu-security-flaws/)
+
+RDBMS
+=====
+* SQL Server: [SQL Server Guidance to protect against speculative execution side-channel vulnerabilities](https://support.microsoft.com/en-us/help/4073225/guidance-for-sql-server)
 
 Embedded Devices
 ================
