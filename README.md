@@ -86,6 +86,10 @@ Linux distributions
  * Gentoo:
    * [Gentoo Wiki - Project:Security/Vulnerabilities/Meltdown and Spectre](https://wiki.gentoo.org/wiki/Project:Security/Vulnerabilities/Meltdown_and_Spectre)
    * [Bugtracker - Bug#643228 - Security Tracking Bug](https://bugs.gentoo.org/643228)
+ * Oracle Linux (ELSA Security Advisory):
+   * [Details about CVE-2017-5753 (variant 1, aka "Spectre")](https://linux.oracle.com/cve/CVE-2017-5753.html)
+   * [Details about CVE-2017-5715 (variant 2, aka "Spectre")](https://linux.oracle.com/cve/CVE-2017-5715.html)
+   * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://linux.oracle.com/cve/CVE-2017-5754.html)
 
 FreeBSD
 =======
