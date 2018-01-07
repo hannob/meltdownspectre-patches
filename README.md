@@ -181,7 +181,7 @@ Regarding AMD's microcode update: it seems to be only for EPYC (maybe Ryzen, not
 
 **Update - Fri 5 Jan 2018, 03:35 UTC**
 
-Debian Project package maintainers released an [[updated version of the "intel-microcode" package (version 2017-12-15)]](https://packages.debian.org/sid/intel-microcode) for the Sid (unstable) branch olny. Upon inspection, it seems to contain the same microcode additions observed in the Red Hat microcode_ctl update of Thu 4 Jan 2018, 15:30 UTC.
+Debian Project package maintainers released an [updated version of the "intel-microcode" package (version 2017-12-15)](https://packages.debian.org/sid/intel-microcode) for the Sid (unstable) branch olny. Upon inspection, it seems to contain the same microcode additions observed in the Red Hat microcode_ctl update of Thu 4 Jan 2018, 15:30 UTC.
 The package in compatible with all Debian-based distributions that support post-boot microcode updates.
 
 Antiviruses
