@@ -53,10 +53,8 @@ In the coming days they plan to release mitigations in Safari to help defend aga
 
  * [Official statement](https://support.apple.com/en-us/HT208394)
  
-The security patch released on December 6, 2017 includes Meltdown mitigation also for Sierra and El Capitan
- 
- * [About the security content of macOS High Sierra 10.13.2, Security Update 2017-002 Sierra, and Security Update 2017-005 El Capitan](https://support.apple.com/en-us/HT208331)
- 
+**Update - Sun 7 Jan 2018, 9:00 UTC**
+Based on the Apple's response posted [here](https://twitter.com/GraveSpy720/status/949489861886537728), Meltdown (CVE-2017-5754) is currently only addressed in iOS 11.2, macOS 10.13.2, and tvOS 11.2. Apple cannot say at this time if there will be updates to OS versions prior to the ones listed in their article at this time. The same can be said for Spectre (CVE-2017-5753 and CVE-2017-5715) and any updates for Safari. This means that at this given time there are NO patches for 10.11.x (El Capitan) or 10.12.x (Sierra).
 
 Linux distributions
 ===================
