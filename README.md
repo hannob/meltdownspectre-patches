@@ -62,7 +62,7 @@ Linux distributions
 ===================
 
  * [Red Hat Advisory](https://access.redhat.com/security/vulnerabilities/speculativeexecution)
- * [Speculative Execution Exploit Performance Impacts - Describing the performance impacts to security patches for CVE-2017-5754 CVE-2017-5753 and CVE-2017-5715](https://access.redhat.com/articles/3307751)
+   * [Speculative Execution Exploit Performance Impacts - Describing the performance impacts to security patches for CVE-2017-5754 CVE-2017-5753 and CVE-2017-5715](https://access.redhat.com/articles/3307751)
  * CentOS:
    * 7 - [CESA-2018:0007](https://lists.centos.org/pipermail/centos-announce/2018-January/022696.html) (kernel), [CESA-2018:0012](https://lists.centos.org/pipermail/centos-announce/2018-January/022697.html) (microcode_ctl), [CESA-2018:0014](https://lists.centos.org/pipermail/centos-announce/2018-January/022698.html) (linux-firmware), [CESA-2018:0023](https://lists.centos.org/pipermail/centos-announce/2018-January/022705.html) (qemu-kvm), [CESA-2018:0029](https://lists.centos.org/pipermail/centos-announce/2018-January/022704.html) (libvirt)
    * 6 - [CESA-2018:0008](https://lists.centos.org/pipermail/centos-announce/2018-January/022701.html) (kernel), [CESA-2018:0013](https://lists.centos.org/pipermail/centos-announce/2018-January/022700.html) (microcode_ctl), [CESA-2018:0024](https://lists.centos.org/pipermail/centos-announce/2018-January/022702.html) (qemu-kvm), [CESA-2018:0030](https://lists.centos.org/pipermail/centos-announce/2018-January/022703.html) (libvirt)
