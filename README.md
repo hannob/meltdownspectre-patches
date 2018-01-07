@@ -148,6 +148,10 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * Check Point [Check Point Response to Meltdown and Spectre (CVE-2017-5753, CVE-2017-5715, CVE-2017-5754)](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk122205)
 * Palo Alto Networks [Information about Meltdown and Spectre findings (PAN-SA-2018-0001)](https://securityadvisories.paloaltonetworks.com/)
 * HP Enterprise: [Side Channel Analysis Method Allows Improper Information Disclosure in Microprocessors (CVE-2017-5715, CVE-2017-5753, CVE-2017-5754)](https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-a00039267en_us), [HPESBHF03805 Certain HPE products using Microprocessors from Intel, AMD, and ARM, with Speculative Execution, Elevation of Privilege and Information Disclosure](https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03805en_us)
+* Juniper: [2018-01 Out of Cycle Security Bulletin: Meltdown & Spectre: CPU Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://kb.juniper.net/InfoCenter/index?page=content&id=JSA10842&actp=RSS), [Meltdown & Spectre: Modern CPU vulnerabilities](https://forums.juniper.net/t5/Security-Now/Meltdown-amp-Spectre-Modern-CPU-vulnerabilities/ba-p/317254)
+* Infoblox: [#7346: Spectre/Meltdown Vulnerabilities - CVE-2017-5715, CVE-2017-5753, CVE-2017-5754](https://support.infoblox.com/app/answers/detail/a_id/7346) (Login required)
+* FireEye: [FireEye Notice for CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 (“Meltdown” and “Spectre” vulnerabilities)](https://www.fireeye.com/blog/products-and-services/2018/01/fireeye-notice-for-meltdown-and-spectre-vulnerabilities.html), [Community Protection Event (CPE): CPU Security Flaws (Spectre/Meltdown)](https://community.fireeye.com/thread/2727) (Login required)
+* Symantec: [Meltdown and Spectre: Are Symantec Products Affected?](https://support.symantec.com/en_US/article.INFO4793.html)
 
 CERTs
 ==================
@@ -200,6 +204,7 @@ Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAt
 * Kaspersky: [Compatibility of Kaspersky Lab solutions with the Microsoft Security update of January 9, 2018](https://support.kaspersky.com/14042)
 * ESET: [Meltdown & Spectre: How to protect yourself from these CPU security flaws](https://www.eset.com/us/about/newsroom/corporate-blog-list/corporate-blog/meltdown-spectre-how-to-protect-yourself-from-these-cpu-security-flaws/)
 * Avira: [With our latest product update 15.0.34.17 Avira Antivirus Free, Avira Antivirus Pro and Avira Antivirus Server are compatible with the Microsoft update](https://www.avira.com/en/support-for-home-knowledgebase-detail/kbid/1925)
+* Symantec: [Meltdown and Spectre: Are Symantec Products Affected?](https://support.symantec.com/en_US/article.INFO4793.html)
 
 RDBMS
 =====
