@@ -55,9 +55,10 @@ Apple has already released mitigations in iOS 11.2, macOS 10.13.2, and tvOS 11.2
 
 **Update Mon 8 Jan 18:00 UTC**
 
-Apple has released [macOS High Sierra 10.13.2 Supplemental Update](https://support.apple.com/en-us/HT208397), along with [Safari 11.0.2 for Mac OS X El Capitan 10.11.6 and macOS Sierra 10.12.6](https://support.apple.com/en-us/HT208403).
-
-The Mac security software updates come alongside the download of [iOS 11.2.2 update](https://support.apple.com/en-us/HT208401) for iPhone and iPad, which includes similar security improvements for those devices and are also recommended to install where applicable.
+Apple has released security improvements to Safari and WebKit to mitigate the effects of Spectre (CVE-2017-5753 and CVE-2017-5715):
+* [macOS High Sierra 10.13.2 Supplemental Update](https://support.apple.com/en-us/HT208397)
+* [Safari 11.0.2](https://support.apple.com/en-us/HT208403) for Mac OS X El Capitan 10.11.6 and macOS Sierra 10.12.6
+* [iOS 11.2.2 update](https://support.apple.com/en-us/HT208401) for iPhone and iPad
 
  
 **Update - Sun 7 Jan 2018, 9:00 UTC**
