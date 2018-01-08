@@ -94,6 +94,7 @@ Linux distributions
    * [Details about CVE-2017-5753 (variant 1, aka "Spectre")](https://linux.oracle.com/cve/CVE-2017-5753.html)
    * [Details about CVE-2017-5715 (variant 2, aka "Spectre")](https://linux.oracle.com/cve/CVE-2017-5715.html)
    * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://linux.oracle.com/cve/CVE-2017-5754.html)
+ * CloudLinux: [Intel CPU Bug - Meltdown and Spectre - KernelCare and CloudLinux](https://www.cloudlinux.com/cloudlinux-os-blog/entry/intel-cpu-bug-kernelcare-and-cloudlinux)
 
 FreeBSD
 =======
@@ -157,6 +158,8 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * FireEye: [FireEye Notice for CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 (“Meltdown” and “Spectre” vulnerabilities)](https://www.fireeye.com/blog/products-and-services/2018/01/fireeye-notice-for-meltdown-and-spectre-vulnerabilities.html), [Community Protection Event (CPE): CPU Security Flaws (Spectre/Meltdown)](https://community.fireeye.com/thread/2727) (Login required)
 * Symantec: [Meltdown and Spectre: Are Symantec Products Affected?](https://support.symantec.com/en_US/article.INFO4793.html)
 * Dell EMC: [Microprocessor Side-Channel Attacks (CVE-2017-5715, CVE-2017-5753, CVE-2017-5754): Impact on Dell EMC products (Dell Enterprise Servers, Storage and Networking)](http://www.dell.com/support/article/us/en/04/sln308588/microprocessor-side-channel-attacks--cve-2017-5715--cve-2017-5753--cve-2017-5754---impact-on-dell-emc-products--dell-enterprise-servers--storage-and-networking-?lang=en)
+* NetApp: [NTAP-20180104-0001 - Processor Speculated Execution Vulnerabilities in NetApp Products](https://security.netapp.com/advisory/ntap-20180104-0001/)
+* ASUS: [ASUS Motherboards Microcode Update for Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://www.asus.com/News/V5urzYAT6myCC1o2)
 
 CERTs
 ==================
