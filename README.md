@@ -140,6 +140,7 @@ Cloud Providers
 * Heroku: [Meltdown and Spectre Security Update](https://blog.heroku.com/meltdown-and-spectre-security-update)
 * Alibaba Cloud: [Intel Processor Meltdown and Specter Security Vulnerability Bulletin ](https://www.alibabacloud.com/forum/read-2878)
 * Zscaler: [Meltdown and Spectre vulnerabilities: What you need to know](https://www.zscaler.com/blogs/research/meltdown-and-spectre-vulnerabilities-what-you-need-know)
+* Gandi: [Meltdown and Spectre vulnerabilities](https://news.gandi.net/en/2018/01/meltdown-and-spectre-vulnerabilities/)
 
 Chip Manufacturers / HW Vendors
 ==================
