@@ -113,6 +113,7 @@ Virtualization
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
 * Nutanix - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)
+* Virtuozzo - [Virtuozzo Addresses Intel Bug Questions](https://virtuozzo.com/virtuozzo-addresses-intel-bug-questions/)
 
 Browsers
 ========
@@ -163,6 +164,7 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * Aruba Networks: [ARUBA-PSA-2018-001 - Unauthorized Memory Disclosure through CPU Side-Channel Attacks](http://www.arubanetworks.com/assets/alert/ARUBA-PSA-2018-001.txt)
 * Pure Storage: [Advisory](https://support.purestorage.com/Field_Bulletins/The_Meltdown_and_Spectre_CPU_Vulnerabilities) (login required)
 * Supermicro: [Security Vulnerabilities Regarding Side Channel Speculative Execution and Indirect Branch Prediction Information Disclosure](https://www.supermicro.com/support/security_Intel-SA-00088.cfm)
+* A10 Networks: [SPECTRE/MELTDOWN - CVE-2017-5715/5753/5754](https://www.a10networks.com/sites/default/files/Spectre_Meltdown-CVE-2017-5715_5753_5754.pdf)
 
 CERTs
 ==================
