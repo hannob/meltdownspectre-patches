@@ -173,6 +173,7 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * RSA: [000035890 - Microprocessor Side-Channel Attacks (CVE-2017-5715, CVE-2017-5753, CVE-2017-5754): Impact on RSA products ](https://community.rsa.com/docs/DOC-85418) (login required)
 * Fujitsu: [CPU hardware vulnerable to side-channel attacks](http://www.fujitsu.com/global/support/products/software/security/products-f/jvn-93823979e.html)
 * Veritas Appliance: [Veritas Appliance Statement on Meltdown and Spectre](https://www.veritas.com/support/en_US/article.100041496)
+* Schneider Electric: [Security Notification: "Meltdown" (CVE-2017-5754) and "Spectre" (CVE-2017-5753 & CVE-2017-5715)​ - impact to APC products](https://www.schneider-electric.com/en/faqs/FA336892/)
 
 CERTs
 ==================
