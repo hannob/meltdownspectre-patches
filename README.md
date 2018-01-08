@@ -139,6 +139,7 @@ Cloud Providers
 * UpCloud: [Information regarding the Intel CPU vulnerability (Meltdown)](https://www.upcloud.com/blog/intel-cpu-vulnerability-meltdown/)
 * Heroku: [Meltdown and Spectre Security Update](https://blog.heroku.com/meltdown-and-spectre-security-update)
 * Alibaba Cloud: [Intel Processor Meltdown and Specter Security Vulnerability Bulletin ](https://www.alibabacloud.com/forum/read-2878)
+* Zscaler: [Meltdown and Spectre vulnerabilities: What you need to know](https://www.zscaler.com/blogs/research/meltdown-and-spectre-vulnerabilities-what-you-need-know)
 
 Chip Manufacturers / HW Vendors
 ==================
@@ -229,6 +230,7 @@ Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAt
 * ESET: [Meltdown & Spectre: How to protect yourself from these CPU security flaws](https://www.eset.com/us/about/newsroom/corporate-blog-list/corporate-blog/meltdown-spectre-how-to-protect-yourself-from-these-cpu-security-flaws/)
 * Avira: [With our latest product update 15.0.34.17 Avira Antivirus Free, Avira Antivirus Pro and Avira Antivirus Server are compatible with the Microsoft update](https://www.avira.com/en/support-for-home-knowledgebase-detail/kbid/1925)
 * Symantec: [Meltdown and Spectre: Are Symantec Products Affected?](https://support.symantec.com/en_US/article.INFO4793.html)
+* Avast: [Meltdown and Spectre: Yes, your device is likely vulnerable](https://blog.avast.com/meltdown-and-spectre-yes-your-device-is-likely-vulnerable)
 
 RDBMS
 =====
