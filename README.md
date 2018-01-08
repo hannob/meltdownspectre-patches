@@ -108,7 +108,7 @@ Linux distributions
 FreeBSD
 =======
 
-* [Statement](https://www.freebsd.org/news/newsflash.html#event20180104:01)
+* [Statement](https://lists.freebsd.org/pipermail/freebsd-security/2018-January/009719.html)
 
 Virtualization
 ==============
