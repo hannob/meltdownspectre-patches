@@ -124,6 +124,10 @@ Browsers
 * Chrome: [Actions Required to Mitigate Speculative Side-Channel Attack Techniques](https://www.chromium.org/Home/chromium-security/ssca)
 * Microsoft Edge: [Mitigating speculative execution side-channel attacks in Microsoft Edge and Internet Explorer](https://blogs.windows.com/msedgedev/2018/01/03/speculative-execution-mitigations-microsoft-edge-internet-explorer/)
 
+**Update Mon 8 Jan 2018, 13:00 UTC**
+
+Tencent's Xuanwu Lab [has released a web-based tool](http://xlab.tencent.com/special/spectre/spectre_check.html) that can detect whether your browser is vulnerable to Spectre Attack and can be easily exploited. Official tweet: https://twitter.com/XuanwuLab/status/950345917013504001
+
 Cloud Providers
 ========
 * Amazon AWS: [Processor Speculative Execution Research Disclosure](https://aws.amazon.com/security/security-bulletins/AWS-2018-013/)
