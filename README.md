@@ -95,6 +95,7 @@ Linux distributions
    * [Details about CVE-2017-5715 (variant 2, aka "Spectre")](https://linux.oracle.com/cve/CVE-2017-5715.html)
    * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://linux.oracle.com/cve/CVE-2017-5754.html)
  * CloudLinux: [Intel CPU Bug - Meltdown and Spectre - KernelCare and CloudLinux](https://www.cloudlinux.com/cloudlinux-os-blog/entry/intel-cpu-bug-kernelcare-and-cloudlinux)
+ * Parrot Security OS: [meltdown/spectre security patches](https://blog.parrotsec.org/meltdown-spectre-security-patches/)
 
 FreeBSD
 =======
@@ -149,10 +150,10 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * Huawei: [huawei-sn-20180104-01 - Statement on the Media Disclosure of a Security Vulnerability in the Intel CPU Architecture Design](http://www.huawei.com/en/psirt/security-notices/huawei-sn-20180104-01-intel-en)
 * F5: [K91229003 - Side-channel processor vulnerabilities CVE-2017-5715, CVE-2017-5753, and CVE-2017-5754](https://support.f5.com/csp/article/K91229003)
 * Cisco [CPU Side-Channel Information Disclosure Vulnerabilities](https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20180104-cpusidechannel)
-* Fortigate [CPU hardware vulnerable to Meltdown and Spectre attacks](https://fortiguard.com/psirt/FG-IR-18-002)
-* Cumulus Linux [Meltdown and Spectre: Modern CPU Vulnerabilities](https://support.cumulusnetworks.com/hc/en-us/articles/115015951667-Meltdown-and-Spectre-Modern-CPU-Vulnerabilities)
-* Check Point [Check Point Response to Meltdown and Spectre (CVE-2017-5753, CVE-2017-5715, CVE-2017-5754)](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk122205)
-* Palo Alto Networks [Information about Meltdown and Spectre findings (PAN-SA-2018-0001)](https://securityadvisories.paloaltonetworks.com/)
+* Fortigate: [CPU hardware vulnerable to Meltdown and Spectre attacks](https://fortiguard.com/psirt/FG-IR-18-002)
+* Cumulus Linux: [Meltdown and Spectre: Modern CPU Vulnerabilities](https://support.cumulusnetworks.com/hc/en-us/articles/115015951667-Meltdown-and-Spectre-Modern-CPU-Vulnerabilities)
+* Check Point: [Check Point Response to Meltdown and Spectre (CVE-2017-5753, CVE-2017-5715, CVE-2017-5754)](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk122205)
+* Palo Alto Networks: [Information about Meltdown and Spectre findings (PAN-SA-2018-0001)](https://securityadvisories.paloaltonetworks.com/)
 * HP Enterprise: [Side Channel Analysis Method Allows Improper Information Disclosure in Microprocessors (CVE-2017-5715, CVE-2017-5753, CVE-2017-5754)](https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-a00039267en_us), [HPESBHF03805 Certain HPE products using Microprocessors from Intel, AMD, and ARM, with Speculative Execution, Elevation of Privilege and Information Disclosure](https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-hpesbhf03805en_us)
 * Juniper: [2018-01 Out of Cycle Security Bulletin: Meltdown & Spectre: CPU Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://kb.juniper.net/InfoCenter/index?page=content&id=JSA10842&actp=RSS), [Meltdown & Spectre: Modern CPU vulnerabilities](https://forums.juniper.net/t5/Security-Now/Meltdown-amp-Spectre-Modern-CPU-vulnerabilities/ba-p/317254)
 * Infoblox: [#7346: Spectre/Meltdown Vulnerabilities - CVE-2017-5715, CVE-2017-5753, CVE-2017-5754](https://support.infoblox.com/app/answers/detail/a_id/7346) (Login required)
@@ -166,7 +167,7 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * Supermicro: [Security Vulnerabilities Regarding Side Channel Speculative Execution and Indirect Branch Prediction Information Disclosure](https://www.supermicro.com/support/security_Intel-SA-00088.cfm)
 * A10 Networks: [SPECTRE/MELTDOWN - CVE-2017-5715/5753/5754](https://www.a10networks.com/sites/default/files/Spectre_Meltdown-CVE-2017-5715_5753_5754.pdf)
 * Avaya: [Recent Potential CPU Vulnerabilities: Meltdown and Spectre](https://downloads.avaya.com/css/P8/documents/101045884)
-* FireEye [FireEye Notice for CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 ](https://www.fireeye.com/blog/products-and-services/2018/01/fireeye-notice-for-meltdown-and-spectre-vulnerabilities.html)
+* FireEye: [FireEye Notice for CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 ](https://www.fireeye.com/blog/products-and-services/2018/01/fireeye-notice-for-meltdown-and-spectre-vulnerabilities.html)
 
 CERTs
 ==================
