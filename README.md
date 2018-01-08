@@ -152,6 +152,7 @@ Chip Manufacturers / HW Vendors
 Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf), [Intel Issues Updates to Protect Systems from Security Exploits](https://newsroom.intel.com/news-releases/intel-issues-updates-protect-systems-security-exploits/)
 * AMD: [An Update on AMD Processor Security](https://www.amd.com/en/corporate/speculative-execution)
 * ARM: [Security Update](https://developer.arm.com/support/security-update)
+* Arista: [Security Advisories](https://www.arista.com/en/support/advisories-notices/security-advisories/4025-security-advisory-31)
 * Raspberry Pi: [Why Raspberry Pi isn't vulnerable to Spectre or Meltdown](https://www.raspberrypi.org/blog/why-raspberry-pi-isnt-vulnerable-to-spectre-or-meltdown/)
 * NVIDIA: [Security Notice: Speculative Side Channels](https://nvidia.custhelp.com/app/answers/detail/a_id/4609)
 * Lenovo: [LEN-18282 - Reading Privileged Memory with a Side Channel](https://support.lenovo.com/it/en/solutions/len-18282)
