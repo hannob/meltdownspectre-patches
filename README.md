@@ -138,6 +138,7 @@ Cloud Providers
 * Hetzner: [Spectre and Meltdown](https://wiki.hetzner.de/index.php/Spectre_and_Meltdown/en)
 * UpCloud: [Information regarding the Intel CPU vulnerability (Meltdown)](https://www.upcloud.com/blog/intel-cpu-vulnerability-meltdown/)
 * Heroku: [Meltdown and Spectre Security Update](https://blog.heroku.com/meltdown-and-spectre-security-update)
+* Alibaba Cloud: [Intel Processor Meltdown and Specter Security Vulnerability Bulletin ](https://www.alibabacloud.com/forum/read-2878)
 
 Chip Manufacturers / HW Vendors
 ==================
