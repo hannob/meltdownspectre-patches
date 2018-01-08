@@ -77,10 +77,10 @@ Linux distributions
  * Ubuntu (tl;dr: Release candidate kernels with patches for *Meltdown* 4.4.x and 4.13.x are now available through a dedicated PPA; subsequent patches for *Spectre* are coming in the future before the kernels are pushed to official release branch):  
  **Update - Sun 7 Jan 2018, 22:00 UTC**  
  Release candidate kernels 4.4.x (Trusty HWE / Xenial GA) and 4.13.x (Xenial HWE-edge / Artful GA / Artful HWE) are now publicly available from a [dedicated Launchpad PPA](https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/pti/) and currently contain patches for CVE-2017-5754 *aka Meltdown*, with support only some architactures. Support for a broader array of architectures and patches for CVE-2017-5715 and CVE-2017-5753 *aka Spectre* are expected in the near future.
- After some testing, the patched kernels will be pushed to the main release branch.
-  **Update - Mon 8 Jan 2018, 16:00 UTC**
+ After some testing, the patched kernels will be pushed to the main release branch.  
+  **Update - Mon 8 Jan 2018, 16:00 UTC**  
  Canonical Ltd. announced that, in order to speed up the patching process for all supported distribution versions and branches, the 4.10.x *Xenial HWE* kernel will be migrated early to version 4.13.x, thus leaving no supported kernel branch exposed to vulnerabilities. The migration will occur concurrently to the push of patched kernels to the main distribution repositories.
- In addition, Ubuntu 17.04, aka *Zesty Zapus*, will [reach early End Of Life](https://lists.ubuntu.com/archives/ubuntu-announce/2018-January/000227.html) on Sat 13 Jan 2018.
+ In addition, Ubuntu 17.04, aka *Zesty Zapus*, will [reach End Of Life](https://lists.ubuntu.com/archives/ubuntu-announce/2018-January/000227.html) on Sat 13 Jan 2018 and will not receive any kind kernel patch support.
    * [Ubuntu Wiki SecurityTeam KnowledgeBase](https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/SpectreAndMeltdown)
    * [Ubuntu Insights blog - Ubuntu Updates for the Meltdown / Spectre Vulnerabilities](https://insights.ubuntu.com/2018/01/04/ubuntu-updates-for-the-meltdown-spectre-vulnerabilities/)
    * [Details about CVE-2017-5753 (variant 1, aka "Spectre")](https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5753)
