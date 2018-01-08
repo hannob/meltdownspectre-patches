@@ -155,6 +155,7 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * Infoblox: [#7346: Spectre/Meltdown Vulnerabilities - CVE-2017-5715, CVE-2017-5753, CVE-2017-5754](https://support.infoblox.com/app/answers/detail/a_id/7346) (Login required)
 * FireEye: [FireEye Notice for CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 (“Meltdown” and “Spectre” vulnerabilities)](https://www.fireeye.com/blog/products-and-services/2018/01/fireeye-notice-for-meltdown-and-spectre-vulnerabilities.html), [Community Protection Event (CPE): CPU Security Flaws (Spectre/Meltdown)](https://community.fireeye.com/thread/2727) (Login required)
 * Symantec: [Meltdown and Spectre: Are Symantec Products Affected?](https://support.symantec.com/en_US/article.INFO4793.html)
+* Dell EMC: [Microprocessor Side-Channel Attacks (CVE-2017-5715, CVE-2017-5753, CVE-2017-5754): Impact on Dell EMC products (Dell Enterprise Servers, Storage and Networking)](http://www.dell.com/support/article/us/en/04/sln308588/microprocessor-side-channel-attacks--cve-2017-5715--cve-2017-5753--cve-2017-5754---impact-on-dell-emc-products--dell-enterprise-servers--storage-and-networking-?lang=en)
 
 CERTs
 ==================
