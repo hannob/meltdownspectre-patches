@@ -50,9 +50,15 @@ Apple
 ====
 
 Apple has already released mitigations in iOS 11.2, macOS 10.13.2, and tvOS 11.2 to help defend against Meltdown. 
-In the coming days they plan to release mitigations in Safari to help defend against Spectre. They continue to develop and test further mitigations for these issues and will release them in upcoming updates of iOS, macOS, tvOS, and watchOS.
 
- * [Official statement](https://support.apple.com/en-us/HT208394)
+* [Official statement](https://support.apple.com/en-us/HT208394)
+
+**Update Mon 8 Jan 18:00 UTC**
+
+Apple has released [macOS High Sierra 10.13.2 Supplemental Update](https://support.apple.com/en-us/HT208397), along with [Safari 11.0.2 for Mac OS X El Capitan 10.11.6 and macOS Sierra 10.12.6](https://support.apple.com/en-us/HT208403).
+
+The Mac security software updates come alongside the download of [iOS 11.2.2 update](https://support.apple.com/en-us/HT208401) for iPhone and iPad, which includes similar security improvements for those devices and are also recommended to install where applicable.
+
  
 **Update - Sun 7 Jan 2018, 9:00 UTC**
 
