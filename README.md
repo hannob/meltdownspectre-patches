@@ -161,6 +161,8 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * NetApp: [NTAP-20180104-0001 - Processor Speculated Execution Vulnerabilities in NetApp Products](https://security.netapp.com/advisory/ntap-20180104-0001/)
 * ASUS: [ASUS Motherboards Microcode Update for Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://www.asus.com/News/V5urzYAT6myCC1o2)
 * Aruba Networks: [ARUBA-PSA-2018-001 - Unauthorized Memory Disclosure through CPU Side-Channel Attacks](http://www.arubanetworks.com/assets/alert/ARUBA-PSA-2018-001.txt)
+* Pure Storage: [Advisory](https://support.purestorage.com/Field_Bulletins/The_Meltdown_and_Spectre_CPU_Vulnerabilities) (login required)
+* Supermicro: [Security Vulnerabilities Regarding Side Channel Speculative Execution and Indirect Branch Prediction Information Disclosure](https://www.supermicro.com/support/security_Intel-SA-00088.cfm)
 
 CERTs
 ==================
