@@ -254,6 +254,10 @@ RDBMS
 =====
 * SQL Server: [SQL Server Guidance to protect against speculative execution side-channel vulnerabilities](https://support.microsoft.com/en-us/help/4073225/guidance-for-sql-server)
 
+NOSQL
+=====
+* Elastic stack: [Elastic Cloud and Meltdown](https://www.elastic.co/blog/elastic-cloud-and-meltdown)
+
 Embedded Devices
 ================
 
