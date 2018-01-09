@@ -19,6 +19,7 @@ PoCs
 
 * In a [recent tweet](https://twitter.com/mlqxyz/status/950744467736354816), Moritz Lipp (Graz University of Technology) has announced the release of their PoC implementations for Meltdown. 
   * [GitHub repository](https://github.com/iaik/meltdown)
+* In a [recent tweet](https://twitter.com/tehjh/status/950774905544507393), Jann Horn (Google's Project Zero) has announced that the PoC code referenced in their recent blogpost about CPUs is now public.
 
 Linux upstream kernel
 =====================
