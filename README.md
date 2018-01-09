@@ -208,6 +208,7 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 Execution” Vulnerabilities with some microprocessors](https://support.polycom.com/content/dam/polycom-support/global/documentation/spectre-meltdown-vulnerability-1-1.pdf)
 * Sonicwall: [Meltdown and Spectre Vulnerabilities: A SonicWall Alert](https://www.sonicwall.com/en-us/support/product-notification/meltdown-and-spectre-vulnerabilities-a-sonicwall)
 * Aerohive Networks: [Aerohive's response to Meltdown and Spectre](https://www.aerohive.com/support/security-center/product-security-announcement-aerohives-response-to-meltdown-and-spectre-jan-5-2018/)
+* Barracuda Networks: [Security Advisory](https://blog.barracuda.com/2018/01/05/barracuda-networks-security-advisory/)
 
 CERTs
 ==================
