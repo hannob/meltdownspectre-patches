@@ -207,6 +207,7 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * Polycom: [Security Advisory Relating to the “Speculative
 Execution” Vulnerabilities with some microprocessors](https://support.polycom.com/content/dam/polycom-support/global/documentation/spectre-meltdown-vulnerability-1-1.pdf)
 * Sonicwall: [Meltdown and Spectre Vulnerabilities: A SonicWall Alert](https://www.sonicwall.com/en-us/support/product-notification/meltdown-and-spectre-vulnerabilities-a-sonicwall)
+* Aerohive Networks: [Aerohive's response to Meltdown and Spectre](https://www.aerohive.com/support/security-center/product-security-announcement-aerohives-response-to-meltdown-and-spectre-jan-5-2018/)
 
 CERTs
 ==================
@@ -275,6 +276,7 @@ Embedded Devices
 
  * Synology: [Synology-SA-18:01 Meltdown and Spectre Attacks](https://www.synology.com/en-us/support/security/Synology_SA_18_01)
  * Opengear: [CVE-2017-5754, CVE-2017-5715, CVE-2017-5753 - Meltdown and Spectre CPU Vulnerabilities](https://opengear.zendesk.com/hc/en-us/articles/115003797711-CVE-2017-5754-CVE-2017-5715-CVE-2017-5753-Meltdown-and-Spectre-CPU-Vulnerabilities)
+ * QNAP: [NAS-201801-08 - Security Advisory for Speculative Execution Vulnerabilities in Processors](https://www.qnap.com/en/security-advisory/nas-201801-08)
  
 Compilers
 ================
