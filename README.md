@@ -256,7 +256,7 @@ Embedded Devices
 ================
 
  * Synology: [Synology-SA-18:01 Meltdown and Spectre Attacks](https://www.synology.com/en-us/support/security/Synology_SA_18_01)
- * Opengear: Nothing yet. Support claims an announcement is being prepared but did not provide a timeframe for public release.
+ * Opengear: [CVE-2017-5754, CVE-2017-5715, CVE-2017-5753 - Meltdown and Spectre CPU Vulnerabilities](https://opengear.zendesk.com/hc/en-us/articles/115003797711-CVE-2017-5754-CVE-2017-5715-CVE-2017-5753-Meltdown-and-Spectre-CPU-Vulnerabilities)
  
 Compilers
 ================
