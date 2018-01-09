@@ -44,6 +44,10 @@ Windows
  * [Microsoft Advisory](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/adv180002)
  * [Windows Server Guidance](https://support.microsoft.com/en-gb/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution-s) and [Windows Client Guidance](https://support.microsoft.com/en-gb/help/4073119/windows-client-guidance-for-it-pros-to-protect-against-speculative-exe). Note: both links include a Powershell tool to query the status of Windows mitigations for CVE-2017-5715 (branch target injection) and CVE-2017-5754 (rogue data cache load).
  * [Protecting guest virtual machines from CVE-2017-5715 (branch target injection)](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/CVE-2017-5715-and-hyper-v-vms)
+ 
+**Update - Tue 9 Jan 09:00 UTC**
+
+Microsoft has reports of some customers with AMD devices getting into an unbootable state after installing [this KB](https://support.microsoft.com/en-us/help/4056892/windows-10-update-kb4056892). To prevent this issue, Microsoft will temporarily pause Windows OS updates to devices with impacted AMD processors (older CPUs, eg. Athlon and Sempron) at this time. Microsoft is working with AMD to resolve this issue and resume Windows OS security updates to the affected AMD devices via Windows Update and WSUS as soon as possible. If you have experienced an unbootable state or for more information see [KB4073707](https://support.microsoft.com/en-us/help/4073707). For AMD specific information please contact AMD.
    
 
 Apple
