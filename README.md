@@ -222,9 +222,11 @@ CERTs
 ==================
 * CERT/CC: [Vulnerability Note VU#584653 - CPU hardware vulnerable to side-channel attacks](https://www.kb.cert.org/vuls/id/584653)
 * US-CERT: [TA18-004A - Meltdown and Spectre Side-Channel Vulnerability Guidance](https://www.us-cert.gov/ncas/alerts/TA18-004A)
+* CERT-EU: [Security Advisory 2018-001 - Meltdown and Spectre Critical Vulnerabilities](http://cert.europa.eu/static/SecurityAdvisories/2018/CERT-EU-SA2018-001.pdf)
 * NCSC-UK: [Meltdown and Spectre guidance](https://www.ncsc.gov.uk/guidance/meltdown-and-spectre-guidance)
 * CERT-FR: [CERTFR-2018-ALE-001 - Multiples vulnérabilités de fuite d’informations dans des processeurs](https://www.cert.ssi.gouv.fr/alerte/CERTFR-2018-ALE-001/) (french only)
 * CERT Nazionale: [Moderni processori vulnerabili ad attacchi side-channel](https://www.certnazionale.it/news/2018/01/04/moderni-processori-vulnerabili-ad-attacchi-side-channel/) (italian only)
+* CERT-PA: [Meltdown e Spectre, vulnerabilità sui microprocessori mettono potenzialmente a rischio informazioni sensibili](https://www.cert-pa.it/web/guest/news?id=9378) (italian only)
 
 CPU microcode  
 =============
