@@ -133,7 +133,7 @@ Browsers
 ========
 
 * Mozilla: [Mitigations landing for new class of timing attack (blog post)](https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/), [Security Advisory 2018-01](https://www.mozilla.org/en-US/security/advisories/mfsa2018-01/), [Firefox mitigation update 57.0.4](https://www.mozilla.org/en-US/firefox/57.0.4/releasenotes/)
-* Chrome: [Actions Required to Mitigate Speculative Side-Channel Attack Techniques](https://www.chromium.org/Home/chromium-securi**Update - Mon 8 Jan 2018, 16:00 UTC**  ty/ssca)
+* Chrome: [Actions Required to Mitigate Speculative Side-Channel Attack Techniques](https://www.chromium.org/Home/chromium-security/ssca)
 * Microsoft Edge: [Mitigating speculative execution side-channel attacks in Microsoft Edge and Internet Explorer](https://blogs.windows.com/msedgedev/2018/01/03/speculative-execution-mitigations-microsoft-edge-internet-explorer/)
 
 **Update Mon 8 Jan 2018, 13:00 UTC**
