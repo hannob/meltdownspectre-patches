@@ -193,6 +193,7 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * Schneider Electric: [Security Notification: "Meltdown" (CVE-2017-5754) and "Spectre" (CVE-2017-5753 & CVE-2017-5715)​ - impact to APC products](https://www.schneider-electric.com/en/faqs/FA336892/)
 * Polycom: [Security Advisory Relating to the “Speculative
 Execution” Vulnerabilities with some microprocessors](https://support.polycom.com/content/dam/polycom-support/global/documentation/spectre-meltdown-vulnerability-1-1.pdf)
+* Sonicwall: [Meltdown and Spectre Vulnerabilities: A SonicWall Alert](https://www.sonicwall.com/en-us/support/product-notification/meltdown-and-spectre-vulnerabilities-a-sonicwall)
 
 CERTs
 ==================
