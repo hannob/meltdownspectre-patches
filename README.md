@@ -140,6 +140,8 @@ Browsers
 * Chrome: [Actions Required to Mitigate Speculative Side-Channel Attack Techniques](https://www.chromium.org/Home/chromium-security/ssca)
 * Microsoft Edge: [Mitigating speculative execution side-channel attacks in Microsoft Edge and Internet Explorer](https://blogs.windows.com/msedgedev/2018/01/03/speculative-execution-mitigations-microsoft-edge-internet-explorer/)
 * Webkit (open source browser engine): [What Spectre and Meltdown Mean For WebKit](https://webkit.org/blog/8048/what-spectre-and-meltdown-mean-for-webkit/)
+* Brave Browser: [New desktop release just out (0.19.131)](https://twitter.com/brave/status/950613194933874688) with various security enhancements, including Strict Site Isolation support.
+  * [Release Notes](https://github.com/brave/browser-laptop/releases/tag/v0.19.131dev)
 
 **Update Mon 8 Jan 2018, 13:00 UTC**
 
