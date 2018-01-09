@@ -14,6 +14,12 @@ The bug is in the hardware, but mitigations in operating systems are possible an
 shipped now. I'm collecting notes on the patch status in various software products. This will
 change rapidly and may contain errors. If you have better info please send pull requests.
 
+PoCs
+=====
+
+* In a [recent tweet](https://twitter.com/mlqxyz/status/950744467736354816), Moritz Lipp (Graz University of Technology) has announced the release of their PoC implementations for Meltdown. 
+  * [GitHub repository](https://github.com/iaik/meltdown)
+
 Linux upstream kernel
 =====================
 
