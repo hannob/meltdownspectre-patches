@@ -227,6 +227,10 @@ CERTs
 * CERT-FR: [CERTFR-2018-ALE-001 - Multiples vulnérabilités de fuite d’informations dans des processeurs](https://www.cert.ssi.gouv.fr/alerte/CERTFR-2018-ALE-001/) (french only)
 * CERT Nazionale: [Moderni processori vulnerabili ad attacchi side-channel](https://www.certnazionale.it/news/2018/01/04/moderni-processori-vulnerabili-ad-attacchi-side-channel/) (italian only)
 * CERT-PA: [Meltdown e Spectre, vulnerabilità sui microprocessori mettono potenzialmente a rischio informazioni sensibili](https://www.cert-pa.it/web/guest/news?id=9378) (italian only)
+* SingCERT: [Alert on Security Flaws Found in Central Processing Units (CPUs)](https://www.csa.gov.sg/singcert/news/advisories-alerts/alert-on-security-flaws-found-in-central-processing-units)
+* CERT.BE: [Central Processor Unit (CPU) Architectural Design Flaws](https://www.cert.be/docs/central-processor-unit-cpu-architectural-design-flaws.html)
+* CERT-IS: [Alvarlegur öryggisgalli í örgjörvum - Meltdown/Spectre](https://www.cert.is/is/node/41.html) (icelandic only)
+* MyCERT: [MA-691.012018: Alert - CPU Hardware Side-Channel Attacks Vulnerability](https://www.mycert.org.my/en/services/advisories/mycert/2018/main/detail/1301/index.html)
 
 CPU microcode  
 =============
