@@ -131,8 +131,7 @@ Virtualization
 * KVM: **Update - Tue 9 Jan 07:50 UTC** - Paolo Bonzini, KVM developer, posted [in a tweet](https://twitter.com/fagiolinux/status/950435721961144322) the following status update for CVE-2017-5715 (Spectre): 
    * Already in Linus's tree: clearing registers on vmexit 
    * First wave of KVM fixes here: https://marc.info/?l=kvm&m=151543506500957&w=2
- 
- He also mentions that a full solution will require all the Linux parts to be agreed upon, but this will unblock the #QEMU updates.
+   * He is also mentioning that a full solution will require all the Linux parts to be agreed upon, but this will unblock the QEMU updates.
 
 Browsers
 ========
