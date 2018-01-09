@@ -265,6 +265,7 @@ Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAt
 * Avira: [With our latest product update 15.0.34.17 Avira Antivirus Free, Avira Antivirus Pro and Avira Antivirus Server are compatible with the Microsoft update](https://www.avira.com/en/support-for-home-knowledgebase-detail/kbid/1925)
 * Symantec: [Meltdown and Spectre: Are Symantec Products Affected?](https://support.symantec.com/en_US/article.INFO4793.html)
 * Avast: [Meltdown and Spectre: Yes, your device is likely vulnerable](https://blog.avast.com/meltdown-and-spectre-yes-your-device-is-likely-vulnerable)
+* eScan: [Meltdown and Spectre – CPU Vulnerabilities](http://blog.escanav.com/2018/01/meltdown-spectre-cpu-vulnerabilities/)
 
 RDBMS
 =====
