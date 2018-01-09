@@ -209,6 +209,8 @@ Execution” Vulnerabilities with some microprocessors](https://support.polycom.
 * Sonicwall: [Meltdown and Spectre Vulnerabilities: A SonicWall Alert](https://www.sonicwall.com/en-us/support/product-notification/meltdown-and-spectre-vulnerabilities-a-sonicwall)
 * Aerohive Networks: [Aerohive's response to Meltdown and Spectre](https://www.aerohive.com/support/security-center/product-security-announcement-aerohives-response-to-meltdown-and-spectre-jan-5-2018/)
 * Barracuda Networks: [Security Advisory](https://blog.barracuda.com/2018/01/05/barracuda-networks-security-advisory/)
+* Netgate: [An update on Meltdown and Spectre](https://www.netgate.com/blog/an-update-on-meltdown-and-spectre.html)
+* Silver Peak: [Security Advisory](https://www.silver-peak.com/sites/default/files/advisory/security_advisory_notice_-_meltdown-spectre.pdf)
 
 CERTs
 ==================
