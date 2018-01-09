@@ -290,6 +290,8 @@ RDBMS
 NOSQL
 =====
 * Elastic stack: [Elastic Cloud and Meltdown](https://www.elastic.co/blog/elastic-cloud-and-meltdown)
+* Couchbase: [Speculative Execution Processor Vulnerabilities – ‘Meltdown and Spectre’: What you need to know](https://blog.couchbase.com/speculative-execution-processor-vulnerabilities-meltdown-spectre-need-know/)
+* ScyllaDB: [The Cost of Avoiding a Meltdown](http://www.scylladb.com/2018/01/07/cost-of-avoiding-a-meltdown/)
 
 Embedded Devices
 ================
