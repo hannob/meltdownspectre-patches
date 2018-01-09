@@ -124,7 +124,9 @@ Virtualization
 ** [KB 52264](https://kb.vmware.com/s/article/52264) tracks VMware appliance status (currently all unaffected or pending)
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
-* Nutanix - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)
+* Nutanix - Nutanix Security Advisory #0007 v1 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)  
+  **Update - Mon 8 Jan 2018**
+  - New Nutanix Security Advisory #0007 v2 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v2.pdf)
 * Virtuozzo - [Virtuozzo Addresses Intel Bug Questions](https://virtuozzo.com/virtuozzo-addresses-intel-bug-questions/)
 
 Browsers
