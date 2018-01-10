@@ -30,7 +30,11 @@ is a mitigation in the Linux Kernel, originally named KAISER.
 
  * [Version 4.14.11](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.11) contains KPTI.
  * [Version 4.15-rc6](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/log/?h=v4.15-rc6) contains KPTI.
- * Longterm support kernels [Version 4.9.75](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.9.75) and [4.4.110](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.110) contain KPTI backports, however please note [that these are based on an earlier version of KPTI and may contain bugs](https://news.ycombinator.com/item?id=16087736).
+ * Longterm support kernels [Version 4.9.75](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.9.75) and [4.4.110](https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.4.110) contain KPTI backports.
+
+Noteworthy:
+ * Comment by kernel developer Andrew Lutomirski [that pre-4.14 kernels got an earlier version of KPTI and may contain bugs](https://news.ycombinator.com/item?id=16087736).
+ * [Explanation of PCID](https://archive.fo/ma8Iw), which will reduce performance impact of KPTI on newer kernels.
 
 minipli patches
 ===============
