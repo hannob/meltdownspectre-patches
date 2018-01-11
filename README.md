@@ -231,6 +231,12 @@ Execution” Vulnerabilities with some microprocessors](https://support.polycom.
 * Barracuda Networks: [Security Advisory](https://blog.barracuda.com/2018/01/05/barracuda-networks-security-advisory/)
 * Netgate: [An update on Meltdown and Spectre](https://www.netgate.com/blog/an-update-on-meltdown-and-spectre.html)
 * Silver Peak: [Security Advisory](https://www.silver-peak.com/sites/default/files/advisory/security_advisory_notice_-_meltdown-spectre.pdf)
+* Arbor Networks: [Security Advisory](https://arbor.custhelp.com/app/answers/detail/a_id/4148) (requires support login)
+* Extreme Networks: [VN 2018-001 (CVE-2017-5715, CVE-2017-5753 - Spectre)](https://extremeportal.force.com/ExtrArticleDetail?n=000018943), [VN 2018-002 (CVE-2017-5754 - Meltdown)](https://extremeportal.force.com/ExtrArticleDetail?n=000018944)
+* KEMP Technologies: [Meltdown And Spectre (CVE-2017-5754 & CVE-2017-5753)](https://support.kemptechnologies.com/hc/en-us/articles/115003789132-Meltdown-and-Spectre-CVE-2017-5754-CVE-2017-5753-)
+* Pulse Secure: [KB43597 - Impact of CVE-2017-5753 (Bounds Check bypass, AKA Spectre), CVE-2017-5715 (Branch Target Injection, AKA Spectre) and CVE-2017-5754 (Meltdown) on Pulse Secure Products](http://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB43597/?q=KB43597&l=en_US&fs=Search&pn=1&atype=)
+* Nokia: [Security Advisory](https://alerts.alcatel-lucent.com/alerts/viewalert.cgi?alert_id=18572) (requires Nokia OLCS login)
+* Riverbed: [Meltdown/Spectre: Side Channel Attacks against X86 hardware and Linux Kernel](https://supportkb.riverbed.com/support/index?page=content&id=S31752) (requires Riverbed Support Account)
 
 CERTs
 ==================
@@ -314,6 +320,7 @@ Vendor overview: https://docs.google.com/spreadsheets/d/184wcDt9I9TUNFFbsAVLpzAt
 * Symantec: [Meltdown and Spectre: Are Symantec Products Affected?](https://support.symantec.com/en_US/article.INFO4793.html)
 * Avast: [Meltdown and Spectre: Yes, your device is likely vulnerable](https://blog.avast.com/meltdown-and-spectre-yes-your-device-is-likely-vulnerable)
 * eScan: [Meltdown and Spectre – CPU Vulnerabilities](http://blog.escanav.com/2018/01/meltdown-spectre-cpu-vulnerabilities/)
+* Bitdefender: [Meltdown and Spectre: decades-old CPU design flaws put businesses at risk](https://businessinsights.bitdefender.com/meltdown-and-spectre-decades-old-cpu-design-flaws-put-businesses-at-risk)
 
 RDBMS
 =====
