@@ -230,7 +230,7 @@ Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uplo
 * A10 Networks: [SPECTRE/MELTDOWN - CVE-2017-5715/5753/5754](https://www.a10networks.com/sites/default/files/Spectre_Meltdown-CVE-2017-5715_5753_5754.pdf)
 * Avaya: [Recent Potential CPU Vulnerabilities: Meltdown and Spectre](https://downloads.avaya.com/css/P8/documents/101045884)
 * RSA: [000035890 - Microprocessor Side-Channel Attacks (CVE-2017-5715, CVE-2017-5753, CVE-2017-5754): Impact on RSA products ](https://community.rsa.com/docs/DOC-85418) (login required)
-* Fujitsu: [CPU hardware vulnerable to side-channel attacks](http://www.fujitsu.com/global/support/products/software/security/products-f/jvn-93823979e.html)
+* Fujitsu: [CPU hardware vulnerable to side-channel attacks](http://www.fujitsu.com/global/support/products/software/security/products-f/jvn-93823979e.html), [6 SPARC server models listed as t.b.d. p.9](https://sp.ts.fujitsu.com/dmsp/Publications/public/Intel-Side-Channel-Analysis-Method-Security-Review-CVE2017-5715-vulnerability-Fujitsu-products.pdf)
 * Veritas Appliance: [Veritas Appliance Statement on Meltdown and Spectre](https://www.veritas.com/support/en_US/article.100041496)
 * Schneider Electric: [Security Notification: "Meltdown" (CVE-2017-5754) and "Spectre" (CVE-2017-5753 & CVE-2017-5715)​ - impact to APC products](https://www.schneider-electric.com/en/faqs/FA336892/)
 * Polycom: [Security Advisory Relating to the “Speculative
