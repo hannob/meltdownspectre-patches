@@ -94,6 +94,7 @@ Linux distributions
  **Update - Wed 10 Jan 2018, 08:00 UTC** 
  Fedora [has pushed to **testing**](https://bodhi.fedoraproject.org/updates/?packages=microcode_ctl) new microcode_ctl packages for [F26](https://bodhi.fedoraproject.org/updates/FEDORA-2018-6b319763ab) and [F27](https://bodhi.fedoraproject.org/updates/FEDORA-2018-7e17849364). They contain the update to upstream 2.1-15.20180108 and include fix for Spectre.
  * Ubuntu (tl;dr: Patches for Meltdown now available; subsequent patches for *Spectre* are coming in the future before the kernels are pushed to official release branch)
+   The first set of updates for 14.04 / 16.04 was broken on some systems, please make sure you update to the very latest kernel packages and avoid the broken ones.
  **Update - Sun 7 Jan 2018, 22:00 UTC**  
  Release candidate kernels 4.4.x (Trusty HWE / Xenial GA) and 4.13.x (Xenial HWE-edge / Artful GA / Artful HWE) are now publicly available from a [dedicated Launchpad PPA](https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/pti/) and currently contain patches for CVE-2017-5754 *aka Meltdown*, with support only some architactures. Support for a broader array of architectures and patches for CVE-2017-5715 and CVE-2017-5753 *aka Spectre* are expected in the near future.
  After some testing, the patched kernels will be pushed to the main release branch.  
@@ -105,6 +106,8 @@ Linux distributions
    * 17.10: [USN-3523-1](https://usn.ubuntu.com/usn/usn-3523-1/)
    * 16.04: [USN-3522-1](https://usn.ubuntu.com/usn/usn-3522-1/)
    * 14.04: [USN-3522-2](https://usn.ubuntu.com/usn/usn-3522-2/)
+   * 16.04/regression: [USN-3522-3](https://usn.ubuntu.com/usn/usn-3522-3/)
+   * 14.04/regression: [USN-3522-4](https://usn.ubuntu.com/usn/usn-3522-4/)
    * [Details about CVE-2017-5753 (variant 1, aka "Spectre")](https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5753)
    * [Details about CVE-2017-5715 (variant 2, aka "Spectre")](https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5715)
    * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://people.canonical.com/~ubuntu-security/cve/2017/CVE-2017-5754.html)
