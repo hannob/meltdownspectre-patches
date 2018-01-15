@@ -155,7 +155,6 @@ Virtualization
   * vSphere status  is tracked in [KB 52245](https://kb.vmware.com/s/article/52245)
     * [VMSA-2018-0004](https://www.vmware.com/us/security/advisories/VMSA-2018-0004.html) - Update 01/13/18: All of the ESXi patches associated with VMSA-2018-0004 have been PULLED from the online repository after Intel notified VMware of faulty microcode updates for certain Haswell/Broadwell CPUs. Please see https://kb.vmware.com/s/article/52345 for affected systems & “tmp” workaround for those who’ve applied microcode update until new updates are available from Intel.
     * VMware currently advises patching to the levels provided in [VMSA-2018-0002](https://www.vmware.com/us/security/advisories/VMSA-2018-0002.html).
-    * Update 01/13/18: Intel just notified VMware of faulty microcode updates for certain Haswell/Broadwell CPUs. Please see https://kb.vmware.com/s/article/52345 for affected systems & “tmp” workaround for those who’ve applied microcode update until new updates are available from Intel.
   * VMware Appliance status is tracked in [KB 52264](https://kb.vmware.com/s/article/52264).
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
