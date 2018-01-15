@@ -140,7 +140,8 @@ Linux distributions
  * CloudLinux: [Intel CPU Bug - Meltdown and Spectre - KernelCare and CloudLinux](https://www.cloudlinux.com/cloudlinux-os-blog/entry/intel-cpu-bug-kernelcare-and-cloudlinux)
  * Parrot Security OS: [meltdown/spectre security patches](https://blog.parrotsec.org/meltdown-spectre-security-patches/)
  * Wind River Linux and Pulsar Linux: [Wind River Security Vulnerability Notice: Linux Kernel Meltdown and Spectre Break (Side-Channel Attacks)](https://knowledge.windriver.com/en-us/000_Products/000/010/050/010/000_Wind_River_Security_Vulnerability_Notice%3A__Linux_Kernel_Meltdown_and_Spectre_Break_(Side-Channel_Attacks)_-_CVE-2017-5754_CVE-2017-5753_CVE-2017-5715#)
-
+ * Tails: Tails 3.4 [has been released](https://tails.boum.org/security/Numerous_security_holes_in_3.3/index.en.html). It contains the fix for Meltdown and partial mitigation for Spectre.
+ 
 FreeBSD
 =======
 
