@@ -152,12 +152,11 @@ Virtualization
 
 * XEN - [XSA-254](https://xenbits.xen.org/xsa/advisory-254.html) and [Xen Project Spectre/Meltdown FAQ](https://blog.xenproject.org/2018/01/04/xen-project-spectremeltdown-faq/), no patches yet
 * QEMU - unofficial patch published [here](https://lists.nongnu.org/archive/html/qemu-devel/2018-01/msg00811.html), [official blog post](https://www.qemu.org/2018/01/04/spectre/), [discussion on qemu-devel](https://lists.nongnu.org/archive/html/qemu-devel/2018-01/msg00613.html)
-* VMware - [VMSA-2018-0004](https://www.vmware.com/us/security/advisories/VMSA-2018-0004.html)
-  * VMSA-2018-0004 supersedes -0002. The ESXi patches will deploy microcode for supported CPUs of the VMHost and for the vCPU presented to the Guest OS when using vHW9 or above (vHW11 recommended) that are cold booted after the patching is complete across the cluster. See [KB 52085](https://kb.vmware.com/s/article/52085) for more details on Hypervisor-Assisted Guest Mitigation.
-  * [KB 52245](https://kb.vmware.com/s/article/52245) tracks vSphere status.
-  * [KB 52264](https://kb.vmware.com/s/article/52264) tracks VMware appliance status.
-  * Update 01/13/18: Intel just notified VMware of faulty microcode updates for certain Haswell/Broadwell CPUs. Please see https://kb.vmware.com/s/article/52345 for affected systems & “tmp” workaround for those who’ve applied microcode update until new updates are available from Intel.
-  * Update 01/04/18: "OS vendors have begun issuing patches that address CVE-2017-5753, CVE-2017-5715, and CVE-2017-5754 for their operating systems. For these patches to be fully functional in a guest OS additional ESXi and vCenter Server updates will be required. These updates are being given the highest priority. Please sign up to the [Security-Announce mailing list](https://lists.vmware.com/cgi-bin/mailman/listinfo/security-announce) to be alerted when these updates are available."
+* VMware
+  * vSphere status  is tracked in [KB 52245](https://kb.vmware.com/s/article/52245)
+    * [VMSA-2018-0004](https://www.vmware.com/us/security/advisories/VMSA-2018-0004.html) - Update 01/13/18: All of the ESXi patches associated with VMSA-2018-0004 have been PULLED from the online repository after Intel notified VMware of faulty microcode updates for certain Haswell/Broadwell CPUs. Please see https://kb.vmware.com/s/article/52345 for affected systems & “tmp” workaround for those who’ve applied microcode update until new updates are available from Intel.
+    * VMware currently advises patching to the levels provided in [VMSA-2018-0002](https://www.vmware.com/us/security/advisories/VMSA-2018-0002.html).
+  * VMware Appliance status is tracked in [KB 52264](https://kb.vmware.com/s/article/52264).
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
 * Nutanix - Nutanix Security Advisory #0007 v1 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)  
