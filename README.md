@@ -249,6 +249,14 @@ Execution” Vulnerabilities with some microprocessors](https://support.polycom.
 * Pulse Secure: [KB43597 - Impact of CVE-2017-5753 (Bounds Check bypass, AKA Spectre), CVE-2017-5715 (Branch Target Injection, AKA Spectre) and CVE-2017-5754 (Meltdown) on Pulse Secure Products](http://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB43597/?q=KB43597&l=en_US&fs=Search&pn=1&atype=)
 * Nokia: [Security Advisory](https://alerts.alcatel-lucent.com/alerts/viewalert.cgi?alert_id=18572) (requires Nokia OLCS login)
 * Riverbed: [Meltdown/Spectre: Side Channel Attacks against X86 hardware and Linux Kernel](https://supportkb.riverbed.com/support/index?page=content&id=S31752) (requires Riverbed Support Account)
+* Acer: [Meltdown and Spectre security vulnerabilities](https://us.answers.acer.com/app/answers/detail/a_id/53104)
+* Asus: [ASUS Update on Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://www.asus.com/News/YQ3Cr4OYKdZTwnQK)
+* Gigabyte: [BIOS update for Side Channel Analysis Security issue Mitigations](https://www.gigabyte.com/MicroSite/481/intel-sa-00088.html)
+* Panasonic: [Security information of vulnerability by Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://pc-dl.panasonic.co.jp/itn/vuln/g18-001.html)
+* MSI: [MSI pushes out motherboard BIOS updates to tackle recent security vulnerabilities](https://www.msi.com/news/detail/OkG5SUMDBqXU6aat7V7mjK19PeY9USryNqafkIcVX9KrTL9kD4wPpTAxIJCC2sBeYjNfGz221AA2yAjPZIzXKw~~)
+* Toshiba: [Intel, AMD & Microsoft Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method Security Vulnerabilities](https://support.toshiba.com/support/viewContentDetail?contentId=4015952)
+* Vaio: [Side Channel Analysis に関する脆弱性対応について](https://solutions.vaio.com/3316) (japanese only)
+* HP: [HPSBHF03573 rev. 4 - Side-Channel Analysis Method](https://support.hp.com/us-en/document/c05869091)
 
 CERTs
 ==================
