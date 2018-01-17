@@ -277,6 +277,10 @@ CERTs
 CPU microcode  
 =============
 
+**Update - Wed 17 Jan 8:30 UTC**
+
+Red Hat is currently recommending that subscribers contact their CPU OEM vendor to download the latest microcode/firmware. Red Hat is no longer providing microcode to address Spectre variant 2, due to instabilities that are causing systems to not boot. More details can be found in [this article](https://access.redhat.com/solutions/3315431) (subscription required).
+
 **Update - Tue 9 Jan 21:50 UTC**
 
 Latest [Intel microcode](https://downloadcenter.intel.com/download/27431/Linux-Processor-Microcode-Data-File?product=122139) update (released 1/8/2018) is 20180108. According to its release notes:
