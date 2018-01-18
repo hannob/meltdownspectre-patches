@@ -28,6 +28,7 @@ PoCs
   * [GitHub repository](https://github.com/iaik/meltdown)
 * In a [recent tweet](https://twitter.com/tehjh/status/950774905544507393), Jann Horn (Google's Project Zero) has announced that the PoC code referenced in their recent blogpost about CPUs is now public.
 * The LSDS group at Imperial College London [has published sample code](https://github.com/lsds/spectre-attack-sgx) demonstrating a Spectre-like attack against an Intel SGX enclave.
+* Dag-Erling Smørgrav published a [Meltdown PoC for FreeBSD](https://github.com/dag-erling/meltdown).
 
 Linux upstream kernel
 =====================
