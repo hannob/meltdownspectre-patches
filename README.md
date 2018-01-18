@@ -159,9 +159,12 @@ Virtualization
   * VMware Appliance status is tracked in [KB 52264](https://kb.vmware.com/s/article/52264).
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
-* Nutanix - Nutanix Security Advisory #0007 v1 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)  
-  **Update - Mon 8 Jan 2018**
-  - New Nutanix Security Advisory #0007 v2 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v2.pdf)
+* Nutanix  
+  * **Update - Wed 17 Jan 2018**  
+    New Nutanix Security Advisory #0007 v7 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_07_v7.pdf)  
+  * **Update - Mon 8 Jan 2018**  
+    New Nutanix Security Advisory #0007 v2 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v2.pdf)  
+  * Nutanix Security Advisory #0007 v1  [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)  
 * Virtuozzo - [Virtuozzo Addresses Intel Bug Questions](https://virtuozzo.com/virtuozzo-addresses-intel-bug-questions/)
 * KVM: **Update - Tue 9 Jan 07:50 UTC** - Paolo Bonzini, KVM developer, posted [in a tweet](https://twitter.com/fagiolinux/status/950435721961144322) the following status update for CVE-2017-5715 (Spectre): 
    * Already in Linus's tree: clearing registers on vmexit 
