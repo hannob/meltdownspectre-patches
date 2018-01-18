@@ -141,7 +141,8 @@ Linux distributions
  * Parrot Security OS: [meltdown/spectre security patches](https://blog.parrotsec.org/meltdown-spectre-security-patches/)
  * Wind River Linux and Pulsar Linux: [Wind River Security Vulnerability Notice: Linux Kernel Meltdown and Spectre Break (Side-Channel Attacks)](https://knowledge.windriver.com/en-us/000_Products/000/010/050/010/000_Wind_River_Security_Vulnerability_Notice%3A__Linux_Kernel_Meltdown_and_Spectre_Break_(Side-Channel_Attacks)_-_CVE-2017-5754_CVE-2017-5753_CVE-2017-5715#)
  * Tails: Tails 3.4 [has been released](https://tails.boum.org/security/Numerous_security_holes_in_3.3/index.en.html). It contains the fix for Meltdown and partial mitigation for Spectre.
- 
+ * Manjaro: [Detail about Kernel Page-Table Isolation](https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-arm-intel-cpu-bug-hits-partly-amd/37506), patched with [stable update 2018-01-05](https://forum.manjaro.org/t/stable-update-2018-01-05-kernels-kpti-plasma-calamares-tlp/37695).
+
 FreeBSD
 =======
 
