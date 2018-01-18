@@ -141,6 +141,8 @@ Linux distributions
  * Parrot Security OS: [meltdown/spectre security patches](https://blog.parrotsec.org/meltdown-spectre-security-patches/)
  * Wind River Linux and Pulsar Linux: [Wind River Security Vulnerability Notice: Linux Kernel Meltdown and Spectre Break (Side-Channel Attacks)](https://knowledge.windriver.com/en-us/000_Products/000/010/050/010/000_Wind_River_Security_Vulnerability_Notice%3A__Linux_Kernel_Meltdown_and_Spectre_Break_(Side-Channel_Attacks)_-_CVE-2017-5754_CVE-2017-5753_CVE-2017-5715#)
  * Tails: Tails 3.4 [has been released](https://tails.boum.org/security/Numerous_security_holes_in_3.3/index.en.html). It contains the fix for Meltdown and partial mitigation for Spectre.
+ * Manjaro: [Detail about Kernel Page-Table Isolation](https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-arm-intel-cpu-bug-hits-partly-amd/37506), patched with [stable update 2018-01-05](https://forum.manjaro.org/t/stable-update-2018-01-05-kernels-kpti-plasma-calamares-tlp/37695).
+
  
 FreeBSD
 =======
@@ -159,12 +161,9 @@ Virtualization
   * VMware Appliance status is tracked in [KB 52264](https://kb.vmware.com/s/article/52264).
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
-* Nutanix  
-  * **Update - Wed 17 Jan 2018**  
-    New Nutanix Security Advisory #0007 v7 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_07_v7.pdf)  
-  * **Update - Mon 8 Jan 2018**  
-    New Nutanix Security Advisory #0007 v2 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v2.pdf)  
-  * Nutanix Security Advisory #0007 v1  [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)  
+* Nutanix - Nutanix Security Advisory #0007 v1 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)  
+  **Update - Mon 8 Jan 2018**
+  - New Nutanix Security Advisory #0007 v2 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v2.pdf)
 * Virtuozzo - [Virtuozzo Addresses Intel Bug Questions](https://virtuozzo.com/virtuozzo-addresses-intel-bug-questions/)
 * KVM: **Update - Tue 9 Jan 07:50 UTC** - Paolo Bonzini, KVM developer, posted [in a tweet](https://twitter.com/fagiolinux/status/950435721961144322) the following status update for CVE-2017-5715 (Spectre): 
    * Already in Linus's tree: clearing registers on vmexit 
