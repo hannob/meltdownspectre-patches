@@ -208,7 +208,7 @@ Cloud Providers
 Chip Manufacturers / HW Vendors
 ==================
 * Intel: [INTEL-SA-00088 - Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00088&languageid=en-fr), [Intel Analysis of Speculative
-Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf), [Intel Issues Updates to Protect Systems from Security Exploits](https://newsroom.intel.com/news-releases/intel-issues-updates-protect-systems-security-exploits/)
+Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf), [Intel Issues Updates to Protect Systems from Security Exploits](https://newsroom.intel.com/news-releases/intel-issues-updates-protect-systems-security-exploits/), [Firmware Updates and Initial Performance Data for Data Center Systems](https://newsroom.intel.com/news/firmware-updates-and-initial-performance-data-for-data-center-systems/)
 * AMD: [An Update on AMD Processor Security](https://www.amd.com/en/corporate/speculative-execution)
 * ARM: [Security Update](https://developer.arm.com/support/security-update)
 * Arista: [Security Advisories](https://www.arista.com/en/support/advisories-notices/security-advisories/4025-security-advisory-31)
