@@ -143,7 +143,6 @@ Linux distributions
  * Tails: Tails 3.4 [has been released](https://tails.boum.org/security/Numerous_security_holes_in_3.3/index.en.html). It contains the fix for Meltdown and partial mitigation for Spectre.
  * Manjaro: [Detail about Kernel Page-Table Isolation](https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-arm-intel-cpu-bug-hits-partly-amd/37506), patched with [stable update 2018-01-05](https://forum.manjaro.org/t/stable-update-2018-01-05-kernels-kpti-plasma-calamares-tlp/37695).
 
- 
 FreeBSD
 =======
 
