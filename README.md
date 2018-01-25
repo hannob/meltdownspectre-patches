@@ -17,8 +17,9 @@ change rapidly and may contain errors. If you have better info please send pull 
 Spectre & Meltdown Checkers
 =====
 (Use at your own risk)
-* Linux: Stéphane Lesimple [put together](https://github.com/speed47/spectre-meltdown-checker) a simple shell script to tell if your Linux installation is vulnerable against the 3 "speculative execution" CVEs. It's being also added in Debian, see [this tracker](https://tracker.debian.org/pkg/spectre-meltdown-checker) for the status.
+* Linux: Stéphane Lesimple [put together](https://github.com/speed47/spectre-meltdown-checker) a simple shell script to tell if your Linux installation is vulnerable against the 3 "speculative execution" CVEs.
 * Linux: [Red Hat Check Script](https://access.redhat.com/security/vulnerabilities/speculativeexecution) - get the latest version from the diagnose tab of the main Red Hat vulnerability article.
+* Linux: [Debian Spectre-Meltdown Checker](https://packages.debian.org/stretch-backports/spectre-meltdown-checker?utm_source=dlvr.it&utm_medium=twitter) - Spectre & Meltdown vulnerability/mitigation checker available in stretch-backports.
 * Microsoft Windows: See the [Windows](#windows) section in this document containing the link to the official Powershell script.
 
 PoCs
