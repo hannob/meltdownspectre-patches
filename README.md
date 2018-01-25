@@ -28,6 +28,7 @@ PoCs
   * [GitHub repository](https://github.com/iaik/meltdown)
 * In a [recent tweet](https://twitter.com/tehjh/status/950774905544507393), Jann Horn (Google's Project Zero) has announced that the PoC code referenced in their recent blogpost about CPUs is now public.
 * The LSDS group at Imperial College London [has published sample code](https://github.com/lsds/spectre-attack-sgx) demonstrating a Spectre-like attack against an Intel SGX enclave.
+* Dag-Erling Smørgrav published a [Meltdown PoC for FreeBSD](https://github.com/dag-erling/meltdown).
 
 Linux upstream kernel
 =====================
@@ -64,6 +65,7 @@ Windows
  * [Windows Server Guidance](https://support.microsoft.com/en-gb/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution-s) and [Windows Client Guidance](https://support.microsoft.com/en-gb/help/4073119/windows-client-guidance-for-it-pros-to-protect-against-speculative-exe). Note: both links include a Powershell tool to query the status of Windows mitigations for CVE-2017-5715 (branch target injection) and CVE-2017-5754 (rogue data cache load).
  * [Protecting guest virtual machines from CVE-2017-5715 (branch target injection)](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/CVE-2017-5715-and-hyper-v-vms)
  * [Understanding the performance impact of Spectre and Meltdown mitigations on Windows Systems](https://cloudblogs.microsoft.com/microsoftsecure/2018/01/09/understanding-the-performance-impact-of-spectre-and-meltdown-mitigations-on-windows-systems/)
+ * [Spectre mitigations in MSVC](https://blogs.msdn.microsoft.com/vcblog/2018/01/15/spectre-mitigations-in-msvc/)
  
 **Update - Tue 9 Jan 09:00 UTC**
 
@@ -141,7 +143,8 @@ Linux distributions
  * Parrot Security OS: [meltdown/spectre security patches](https://blog.parrotsec.org/meltdown-spectre-security-patches/)
  * Wind River Linux and Pulsar Linux: [Wind River Security Vulnerability Notice: Linux Kernel Meltdown and Spectre Break (Side-Channel Attacks)](https://knowledge.windriver.com/en-us/000_Products/000/010/050/010/000_Wind_River_Security_Vulnerability_Notice%3A__Linux_Kernel_Meltdown_and_Spectre_Break_(Side-Channel_Attacks)_-_CVE-2017-5754_CVE-2017-5753_CVE-2017-5715#)
  * Tails: Tails 3.4 [has been released](https://tails.boum.org/security/Numerous_security_holes_in_3.3/index.en.html). It contains the fix for Meltdown and partial mitigation for Spectre.
- 
+ * Manjaro: [Detail about Kernel Page-Table Isolation](https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-arm-intel-cpu-bug-hits-partly-amd/37506), patched with [stable update 2018-01-05](https://forum.manjaro.org/t/stable-update-2018-01-05-kernels-kpti-plasma-calamares-tlp/37695).
+
 FreeBSD
 =======
 
@@ -206,7 +209,7 @@ Cloud Providers
 Chip Manufacturers / HW Vendors
 ==================
 * Intel: [INTEL-SA-00088 - Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00088&languageid=en-fr), [Intel Analysis of Speculative
-Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf), [Intel Issues Updates to Protect Systems from Security Exploits](https://newsroom.intel.com/news-releases/intel-issues-updates-protect-systems-security-exploits/)
+Execution Side Channels (Whitepaper)](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf), [Intel Issues Updates to Protect Systems from Security Exploits](https://newsroom.intel.com/news-releases/intel-issues-updates-protect-systems-security-exploits/), [Firmware Updates and Initial Performance Data for Data Center Systems](https://newsroom.intel.com/news/firmware-updates-and-initial-performance-data-for-data-center-systems/), [Root Cause of Reboot Issue Identified; Updated Guidance for Customers and Partners](https://newsroom.intel.com/news/root-cause-of-reboot-issue-identified-updated-guidance-for-customers-and-partners/)
 * AMD: [An Update on AMD Processor Security](https://www.amd.com/en/corporate/speculative-execution)
 * ARM: [Security Update](https://developer.arm.com/support/security-update)
 * Arista: [Security Advisories](https://www.arista.com/en/support/advisories-notices/security-advisories/4025-security-advisory-31)
