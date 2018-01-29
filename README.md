@@ -67,6 +67,7 @@ Windows
  * [Protecting guest virtual machines from CVE-2017-5715 (branch target injection)](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/CVE-2017-5715-and-hyper-v-vms)
  * [Understanding the performance impact of Spectre and Meltdown mitigations on Windows Systems](https://cloudblogs.microsoft.com/microsoftsecure/2018/01/09/understanding-the-performance-impact-of-spectre-and-meltdown-mitigations-on-windows-systems/)
  * [Spectre mitigations in MSVC](https://blogs.msdn.microsoft.com/vcblog/2018/01/15/spectre-mitigations-in-msvc/)
+ * [Update to Disable Mitigation against Spectre, Variant 2](https://support.microsoft.com/en-us/help/4078130/update-to-disable-mitigation-against-spectre-variant-2)
  
 **Update - Tue 9 Jan 09:00 UTC**
 
