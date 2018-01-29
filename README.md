@@ -71,7 +71,11 @@ Windows
 **Update - Tue 9 Jan 09:00 UTC**
 
 Microsoft has reports of some customers with AMD devices getting into an unbootable state after installing [this KB](https://support.microsoft.com/en-us/help/4056892/windows-10-update-kb4056892). To prevent this issue, Microsoft will temporarily pause Windows OS updates to devices with impacted AMD processors (older CPUs, eg. Athlon and Sempron) at this time. Microsoft is working with AMD to resolve this issue and resume Windows OS security updates to the affected AMD devices via Windows Update and WSUS as soon as possible. If you have experienced an unbootable state or for more information see [KB4073707](https://support.microsoft.com/en-us/help/4073707). For AMD specific information please contact AMD.
-   
+
+**Update - Sat 27 Jan **
+
+ * [Update to Disable Mitigation against Spectre, Variant 2](https://support.microsoft.com/en-us/help/4078130/update-to-disable-mitigation-against-spectre-variant-2)
+
 
 Apple
 ====
