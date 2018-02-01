@@ -25,7 +25,7 @@ Spectre & Meltdown Checkers
 PoCs
 =====
 
-* In a [recent tweet](https://twitter.com/mlqxyz/status/950744467736354816), Moritz Lipp (Graz University of Technology) has announced the release of their PoC implementations for Meltdown. 
+* In a [recent tweet](https://twitter.com/mlqxyz/status/950744467736354816), Moritz Lipp (Graz University of Technology) has announced the release of their PoC implementations for Meltdown.
   * [GitHub repository](https://github.com/iaik/meltdown)
 * In a [recent tweet](https://twitter.com/tehjh/status/950774905544507393), Jann Horn (Google's Project Zero) has announced that the PoC code referenced in their recent blogpost about CPUs is now public.
 * The LSDS group at Imperial College London [has published sample code](https://github.com/lsds/spectre-attack-sgx) demonstrating a Spectre-like attack against an Intel SGX enclave.
@@ -67,16 +67,19 @@ Windows
  * [Protecting guest virtual machines from CVE-2017-5715 (branch target injection)](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/CVE-2017-5715-and-hyper-v-vms)
  * [Understanding the performance impact of Spectre and Meltdown mitigations on Windows Systems](https://cloudblogs.microsoft.com/microsoftsecure/2018/01/09/understanding-the-performance-impact-of-spectre-and-meltdown-mitigations-on-windows-systems/)
  * [Spectre mitigations in MSVC](https://blogs.msdn.microsoft.com/vcblog/2018/01/15/spectre-mitigations-in-msvc/)
- 
+
 **Update - Tue 9 Jan 09:00 UTC**
 
 Microsoft has reports of some customers with AMD devices getting into an unbootable state after installing [this KB](https://support.microsoft.com/en-us/help/4056892/windows-10-update-kb4056892). To prevent this issue, Microsoft will temporarily pause Windows OS updates to devices with impacted AMD processors (older CPUs, eg. Athlon and Sempron) at this time. Microsoft is working with AMD to resolve this issue and resume Windows OS security updates to the affected AMD devices via Windows Update and WSUS as soon as possible. If you have experienced an unbootable state or for more information see [KB4073707](https://support.microsoft.com/en-us/help/4073707). For AMD specific information please contact AMD.
-   
+
+**Update - Sat 27 Jan**
+
+ * [Update to Disable Mitigation against Spectre, Variant 2](https://support.microsoft.com/en-us/help/4078130/update-to-disable-mitigation-against-spectre-variant-2)
 
 Apple
 ====
 
-Apple has already released mitigations in iOS 11.2, macOS 10.13.2, and tvOS 11.2 to help defend against Meltdown. 
+Apple has already released mitigations in iOS 11.2, macOS 10.13.2, and tvOS 11.2 to help defend against Meltdown.
 
 * [Official statement](https://support.apple.com/en-us/HT208394)
 
@@ -87,7 +90,7 @@ Apple has released security improvements to Safari and WebKit to mitigate the ef
 * [Safari 11.0.2](https://support.apple.com/en-us/HT208403) for Mac OS X El Capitan 10.11.6 and macOS Sierra 10.12.6
 * [iOS 11.2.2 update](https://support.apple.com/en-us/HT208401) for iPhone and iPad
 
- 
+
 **Update - Sun 7 Jan 2018, 9:00 UTC**
 
 Based on the Apple's response posted [here](https://twitter.com/GraveSpy720/status/949489861886537728), Meltdown (CVE-2017-5754) is currently only addressed in iOS 11.2, macOS 10.13.2, and tvOS 11.2. Apple cannot say at this time if there will be updates to OS versions prior to the ones listed in their article at this time. The same can be said for Spectre (CVE-2017-5753 and CVE-2017-5715) and any updates for Safari. This means that at this given time there are NO patches for 10.11.x (El Capitan) or 10.12.x (Sierra).
@@ -101,15 +104,15 @@ Linux distributions
  * CentOS:
    * 7 - [CESA-2018:0007](https://lists.centos.org/pipermail/centos-announce/2018-January/022696.html) (kernel), [CESA-2018:0012](https://lists.centos.org/pipermail/centos-announce/2018-January/022697.html) (microcode_ctl), [CESA-2018:0014](https://lists.centos.org/pipermail/centos-announce/2018-January/022698.html) (linux-firmware), [CESA-2018:0023](https://lists.centos.org/pipermail/centos-announce/2018-January/022705.html) (qemu-kvm), [CESA-2018:0029](https://lists.centos.org/pipermail/centos-announce/2018-January/022704.html) (libvirt)
    * 6 - [CESA-2018:0008](https://lists.centos.org/pipermail/centos-announce/2018-January/022701.html) (kernel), [CESA-2018:0013](https://lists.centos.org/pipermail/centos-announce/2018-January/022700.html) (microcode_ctl), [CESA-2018:0024](https://lists.centos.org/pipermail/centos-announce/2018-January/022702.html) (qemu-kvm), [CESA-2018:0030](https://lists.centos.org/pipermail/centos-announce/2018-January/022703.html) (libvirt)
- * Fedora - Fixed in [FEDORA-2018-8ed5eff2c0](https://bodhi.fedoraproject.org/updates/FEDORA-2018-8ed5eff2c0) (Fedora 26) and [FEDORA-2018-22d5fa8a90](https://bodhi.fedoraproject.org/updates/FEDORA-2018-22d5fa8a90) (Fedora 27).  
- **Update - Wed 10 Jan 2018, 08:00 UTC** 
+ * Fedora - Fixed in [FEDORA-2018-8ed5eff2c0](https://bodhi.fedoraproject.org/updates/FEDORA-2018-8ed5eff2c0) (Fedora 26) and [FEDORA-2018-22d5fa8a90](https://bodhi.fedoraproject.org/updates/FEDORA-2018-22d5fa8a90) (Fedora 27).
+ **Update - Wed 10 Jan 2018, 08:00 UTC**
  Fedora [has pushed to **testing**](https://bodhi.fedoraproject.org/updates/?packages=microcode_ctl) new microcode_ctl packages for [F26](https://bodhi.fedoraproject.org/updates/FEDORA-2018-6b319763ab) and [F27](https://bodhi.fedoraproject.org/updates/FEDORA-2018-7e17849364). They contain the update to upstream 2.1-15.20180108 and include fix for Spectre.
  * Ubuntu (tl;dr: Patches for Meltdown now available; subsequent patches for *Spectre* are coming in the future before the kernels are pushed to official release branch)
    The first set of updates for 14.04 / 16.04 was broken on some systems, please make sure you update to the very latest kernel packages and avoid the broken ones.
- **Update - Sun 7 Jan 2018, 22:00 UTC**  
+ **Update - Sun 7 Jan 2018, 22:00 UTC**
  Release candidate kernels 4.4.x (Trusty HWE / Xenial GA) and 4.13.x (Xenial HWE-edge / Artful GA / Artful HWE) are now publicly available from a [dedicated Launchpad PPA](https://launchpad.net/~canonical-kernel-team/+archive/ubuntu/pti/) and currently contain patches for CVE-2017-5754 *aka Meltdown*, with support only some architactures. Support for a broader array of architectures and patches for CVE-2017-5715 and CVE-2017-5753 *aka Spectre* are expected in the near future.
- After some testing, the patched kernels will be pushed to the main release branch.  
-  **Update - Mon 8 Jan 2018, 16:00 UTC**  
+ After some testing, the patched kernels will be pushed to the main release branch.
+  **Update - Mon 8 Jan 2018, 16:00 UTC**
  Canonical Ltd. announced that, in order to speed up the patching process for all supported distribution versions and branches, the 4.10.x *Xenial HWE* kernel will be migrated early to version 4.13.x, thus leaving no supported kernel branch exposed to vulnerabilities. The migration will occur concurrently to the push of patched kernels to the main distribution repositories.
  In addition, Ubuntu 17.04, aka *Zesty Zapus*, will [reach End Of Life](https://lists.ubuntu.com/archives/ubuntu-announce/2018-January/000227.html) on Sat 13 Jan 2018 and will not receive any kind kernel patch support.
    * [Ubuntu Wiki SecurityTeam KnowledgeBase](https://wiki.ubuntu.com/SecurityTeam/KnowledgeBase/SpectreAndMeltdown)
@@ -128,8 +131,8 @@ Linux distributions
    * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://security-tracker.debian.org/tracker/CVE-2017-5754)
  * [SUSE Advisory](https://www.suse.com/c/suse-addresses-meltdown-spectre-vulnerabilities/)
  * Scientific Linux:
-   * 7 - [SLSA-2018:0007-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180007-1/) (kernel), [SLSA-2018:0012-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180012-1/) (microcode_ctl), [SLSA-2018:0014-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180014-1/) (linux-firmware) 
-   * 6 - [SLSA-2018:0008-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180008-1/) (kernel), [SLSA-2018:0013-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180013-1/) (microcode_ctl) 
+   * 7 - [SLSA-2018:0007-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180007-1/) (kernel), [SLSA-2018:0012-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180012-1/) (microcode_ctl), [SLSA-2018:0014-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180014-1/) (linux-firmware)
+   * 6 - [SLSA-2018:0008-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180008-1/) (kernel), [SLSA-2018:0013-1](https://www.scientificlinux.org/category/sl-errata/slsa-20180013-1/) (microcode_ctl)
  * CoreOS Container Linux: Fixes for Meltdown are [available in all release channels now](https://coreos.com/blog/container-linux-meltdown-patch) (Alpha 1649.0.0, Beta 1632.1.0, Stable 1576.5.0). Auto-updated systems will receive the releases containing the patch on 2017-01-08. Spectre patches are still WIP.
  * NixOS: According to [#33414](https://github.com/NixOS/nixpkgs/issues/33414), KPTI is in nixpkgs since [1e129a3](https://github.com/NixOS/nixpkgs/commit/1e129a3f9934ae62b77475909f6812f2ac3ab51f).
  * [Arch Linux Advisory](https://lists.archlinux.org/pipermail/arch-security/2018-January/001110.html)
@@ -142,7 +145,7 @@ Linux distributions
    * [Details about CVE-2017-5754 (variant 3, aka "Meltdown")](https://linux.oracle.com/cve/CVE-2017-5754.html)
  * CloudLinux: [Intel CPU Bug - Meltdown and Spectre - KernelCare and CloudLinux](https://www.cloudlinux.com/cloudlinux-os-blog/entry/intel-cpu-bug-kernelcare-and-cloudlinux)
  * Parrot Security OS: [meltdown/spectre security patches](https://blog.parrotsec.org/meltdown-spectre-security-patches/)
- * Wind River Linux and Pulsar Linux: [Wind River Security Vulnerability Notice: Linux Kernel Meltdown and Spectre Break (Side-Channel Attacks)](https://knowledge.windriver.com/en-us/000_Products/000/010/050/010/000_Wind_River_Security_Vulnerability_Notice%3A__Linux_Kernel_Meltdown_and_Spectre_Break_(Side-Channel_Attacks)_-_CVE-2017-5754_CVE-2017-5753_CVE-2017-5715#)
+ * Wind River Linux and Pulsar Linux: [Wind River Security Vulnerability Notice: Meltdown and Spectre Side-Channel Attacks - (CVE-2017-5754, CVE-2017-5753 and CVE-2017-5715) for Wind River Linux and Pulsar](https://knowledge.windriver.com/en-us/000_Products/000/010/000/070/000_Wind_River_Security_Vulnerability_Notice%3A_Meltdown_and_Spectre_Side-Channel_Attacks_-_(CVE-2017-5754%2C_CVE-2017-5753_and_CVE-2017-5715)_for_Wind_River_Linux_and_Pulsar)
  * Tails: Tails 3.4 [has been released](https://tails.boum.org/security/Numerous_security_holes_in_3.3/index.en.html). It contains the fix for Meltdown and partial mitigation for Spectre.
  * Manjaro: [Detail about Kernel Page-Table Isolation](https://forum.manjaro.org/t/kernel-page-table-isolation-kpti-severe-arm-intel-cpu-bug-hits-partly-amd/37506), patched with [stable update 2018-01-05](https://forum.manjaro.org/t/stable-update-2018-01-05-kernels-kpti-plasma-calamares-tlp/37695).
 
@@ -163,15 +166,15 @@ Virtualization
   * VMware Appliance status is tracked in [KB 52264](https://kb.vmware.com/s/article/52264).
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
-* Nutanix  
-  * **Update - Wed 17 Jan 2018**  
-    New Nutanix Security Advisory #0007 v7 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_07_v7.pdf)  
-  * **Update - Mon 8 Jan 2018**  
-    New Nutanix Security Advisory #0007 v2 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v2.pdf)  
-  * Nutanix Security Advisory #0007 v1  [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)  
+* Nutanix
+  * **Update - Wed 17 Jan 2018**
+    New Nutanix Security Advisory #0007 v7 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_07_v7.pdf)
+  * **Update - Mon 8 Jan 2018**
+    New Nutanix Security Advisory #0007 v2 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v2.pdf)
+  * Nutanix Security Advisory #0007 v1  [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_0007_v1.pdf)
 * Virtuozzo - [Virtuozzo Addresses Intel Bug Questions](https://virtuozzo.com/virtuozzo-addresses-intel-bug-questions/)
-* KVM: **Update - Tue 9 Jan 07:50 UTC** - Paolo Bonzini, KVM developer, posted [in a tweet](https://twitter.com/fagiolinux/status/950435721961144322) the following status update for CVE-2017-5715 (Spectre): 
-   * Already in Linus's tree: clearing registers on vmexit 
+* KVM: **Update - Tue 9 Jan 07:50 UTC** - Paolo Bonzini, KVM developer, posted [in a tweet](https://twitter.com/fagiolinux/status/950435721961144322) the following status update for CVE-2017-5715 (Spectre):
+   * Already in Linus's tree: clearing registers on vmexit
    * First wave of KVM fixes here: https://marc.info/?l=kvm&m=151543506500957&w=2
    * He is also mentioning that a full solution will require all the Linux parts to be agreed upon, but this will unblock the QEMU updates.
 
@@ -276,12 +279,12 @@ CERTs
 * CERT-PA: [Meltdown e Spectre, vulnerabilità sui microprocessori mettono potenzialmente a rischio informazioni sensibili](https://www.cert-pa.it/web/guest/news?id=9378) (italian only)
 * CERT-GARR: [ALERT GCSA-18001 - Vulnerabilità Meltdown e Spectre](https://www.cert.garr.it/en/alert-en/security-alerts/listid-1/mailid-1905-alert-gcsa-18001-vulnerabilita-meltdown-e-spectre) (italian only)
 * SingCERT: [Alert on Security Flaws Found in Central Processing Units (CPUs)](https://www.csa.gov.sg/singcert/news/advisories-alerts/alert-on-security-flaws-found-in-central-processing-units)
-* CERT.BE: [Central Processor Unit (CPU) Architectural Design Flaws](https://www.cert.be/docs/central-processor-unit-cpu-architectural-design-flaws.html)
+* CERT.BE: [Central Processor Unit (CPU) Architectural Design Flaws](https://www.cert.be/docs/central-processor-unit-cpu-architectural-design-flaws-30.html)
 * CERT-IS: [Alvarlegur öryggisgalli í örgjörvum - Meltdown/Spectre](https://www.cert.is/is/node/41.html) (icelandic only)
 * MyCERT: [MA-691.012018: Alert - CPU Hardware Side-Channel Attacks Vulnerability](https://www.mycert.org.my/en/services/advisories/mycert/2018/main/detail/1301/index.html)
 * CERT-BUND: [Prozessor-Schwachstellen: Spectre und Meltdown](https://www.bsi-fuer-buerger.de/BSIFB/DE/Service/Aktuell/Informationen/Artikel/Meltdown_Spectre_Sicherheitsluecke_10012018.html) (german only)
 
-CPU microcode  
+CPU microcode
 =============
 
 **Update - Wed 17 Jan 8:30 UTC**
@@ -374,7 +377,7 @@ Embedded Devices
  * Synology: [Synology-SA-18:01 Meltdown and Spectre Attacks](https://www.synology.com/en-us/support/security/Synology_SA_18_01)
  * Opengear: [CVE-2017-5754, CVE-2017-5715, CVE-2017-5753 - Meltdown and Spectre CPU Vulnerabilities](https://opengear.zendesk.com/hc/en-us/articles/115003797711-CVE-2017-5754-CVE-2017-5715-CVE-2017-5753-Meltdown-and-Spectre-CPU-Vulnerabilities)
  * QNAP: [NAS-201801-08 - Security Advisory for Speculative Execution Vulnerabilities in Processors](https://www.qnap.com/en/security-advisory/nas-201801-08)
- 
+
 Compilers
 ================
 
