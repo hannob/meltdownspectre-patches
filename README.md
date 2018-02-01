@@ -167,6 +167,8 @@ Virtualization
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
 * Nutanix
+  * **Update - Wed 31 Jan 2018**
+    New Nutanix Security Advisory #0007 v9 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/SecurityAdvisory07-v9.pdf)
   * **Update - Wed 17 Jan 2018**
     New Nutanix Security Advisory #0007 v7 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security-Advisory_07_v7.pdf)
   * **Update - Mon 8 Jan 2018**
