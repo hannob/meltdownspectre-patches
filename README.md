@@ -167,6 +167,8 @@ Virtualization
 * Red Hat Enterprise Virtualization - [Impacts of CVE-2017-5754, CVE-2017-5753, and CVE-2017-5715 to Red Hat Virtualization products](https://access.redhat.com/solutions/3307851)
 * Citrix XenServer - [Citrix XenServer Multiple Security Updates](https://support.citrix.com/article/CTX231390)
 * Nutanix
+  * **Update - Wed 12 Feb 2018**
+    New Nutanix Security Advisory #0007 v10 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/Security_Advisory_0007_v10.pdf)
   * **Update - Wed 31 Jan 2018**
     New Nutanix Security Advisory #0007 v9 - [Nutanix Side-Channel Speculative Execution Vulnerabilities](http://download.nutanix.com/alerts/SecurityAdvisory07-v9.pdf)
   * **Update - Wed 17 Jan 2018**
@@ -269,6 +271,7 @@ Execution” Vulnerabilities with some microprocessors](https://support.polycom.
 * Toshiba: [Intel, AMD & Microsoft Speculative Execution and Indirect Branch Prediction Side Channel Analysis Method Security Vulnerabilities](https://support.toshiba.com/support/viewContentDetail?contentId=4015952)
 * Vaio: [Side Channel Analysis に関する脆弱性対応について](https://solutions.vaio.com/3316) (japanese only)
 * HP: [HPSBHF03573 rev. 4 - Side-Channel Analysis Method](https://support.hp.com/us-en/document/c05869091)
+* Mellanox: [Mellanox Mitigates Meltdown Mess, Stops Spectre Security Slowdown](http://www.mellanox.com/blog/2018/02/spectre-meltdown-restore-security-performance-patches-mellanox-offload-technologies/)
 
 CERTs
 ==================
